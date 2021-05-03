@@ -7,11 +7,7 @@ import './assets/styles/index.css';
 
 
 Vue.config.productionTip = false;
-
-
-
-
-app = new Vue({
+new Vue({
     store,
     router,
     render: (h) => h(App),
