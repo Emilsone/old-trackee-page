@@ -1,4 +1,4 @@
-# Managie
+# Trackee
 
 ## Project setup
 ```
