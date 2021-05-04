@@ -3,8 +3,8 @@ import VueRouter from "vue-router";
 // import store from "@/store";
 import Dashboard from "../views/Dashboard.vue";
 import Home from "../views/Home.vue";
-import Register from "../views/Register";
-import Login from "../views/Login";
+// import Register from "../views/Register";
+// import Login from "../views/Login";
 import Profile from "../views/Profile";
 
 
@@ -15,24 +15,24 @@ const routes = [{
     name: "Home",
     component: Home,
 },
-{
-    path: "/register",
-    name: "Register",
-    component: Register,
-    meta: { guest: true },
-},
+// {
+//     path: "/register",
+//     name: "Register",
+//     component: Register,
+//     meta: { guest: true },
+// },
     {
         path: "/dashboard",
         name: "Dashboard",
         component: Dashboard,
         meta: { guest: true },
     },
-{
-    path: "/login",
-    name: "Login",
-    component: Login,
-    meta: { guest: true },
-},
+// {
+//     path: "/login",
+//     name: "Login",
+//     component: Login,
+//     meta: { guest: true },
+// },
 {
     path: "/profile",
     name: "Profile",

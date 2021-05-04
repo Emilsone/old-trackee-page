@@ -3,7 +3,7 @@
     <NavBar />
     <hero />
     <WhyManagie />
-    <Testimonial />
+    <TestimonialPage />
     <FooterPage />
   </main>
 </template>
@@ -11,14 +11,14 @@
 import NavBar from "@/components/NavBar.vue";
 import Hero from "@/components/Hero.vue";
 import WhyManagie from "@/components/WhyManagie.vue";
-import Testimonial from "@/components/Testimonial.vue";
+import TestimonialPage from "@/components/TestimonialPage.vue";
 import FooterPage from "@/components/FooterPage.vue";
 export default {
   components: {
     NavBar,
     Hero, 
     WhyManagie,
-    Testimonial,
+    TestimonialPage,
     FooterPage,
   },
 };
