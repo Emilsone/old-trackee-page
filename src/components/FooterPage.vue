@@ -5,11 +5,21 @@
         <LogoFooter />
 
         <div class="flex-1 px-4 py-6">
-          <p class="uppercase md:mb-6 font-bold">Features</p>
+          <p class="uppercase md:mb-6 font-bold">Home</p>
           
         </div>
-        <div class="flex-1 px-4 py-6">
-          <p class="uppercase md:mb-6 font-bold">Further Information</p>
+       
+
+         <div class="flex-1 px-4 py-6">
+          <p class="uppercase md:mb-6 font-bold">About Us</p>
+         
+        </div>
+         <div class="flex-1 px-4 py-6">
+          <p class="uppercase md:mb-6 font-bold">Our Teams</p>
+         
+        </div>
+         <div class="flex-1 px-4 py-6">
+          <p class="uppercase md:mb-6 font-bold">Terms & Conditions</p>
          
         </div>
 
