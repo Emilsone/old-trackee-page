@@ -15,7 +15,7 @@
          
         </div>
          <div class="flex-1 px-4 py-6">
-          <p class="uppercase md:mb-6 font-bold">Our Teams</p>
+          <p class="uppercase md:mb-6 font-bold">Features</p>
          
         </div>
          <div class="flex-1 px-4 py-6">
