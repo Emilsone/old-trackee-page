@@ -4,7 +4,7 @@
       <h1 class="text-3xl font-bold title-font text-black mb-12 text-center">
         FEATURES
       </h1>
-      <p class="text-lg paragraph-font text-black mb-12 text-center">
+      <p class="text-lg paragraph-font text-black mb-6 text-center">
         Trackee is an intuitive task management tool that your employees will
         love!
       </p>
@@ -16,11 +16,11 @@
               class="w-20 h-20 mb-8 object-cover object-center inline-block"
               src="../assets/clipboard.png"
             />
-            <h2
-              class="text-gray-900 font-bold title-font tracking-wider text-sm"
+            <h1
+              class="text-gray-900 font-bold title-font tracking-wider text-xl"
             >
               Time Mmeasurement
-            </h2>
+            </h1>
             <p class="leading-relaxed">
               It measures time in a friendly way it;'s a trusted assistant for
               your team members not a hard task master
@@ -34,11 +34,11 @@
               class="w-20 h-20 mb-8 object-cover object-center inline-block"
               src="../assets/easy.png"
             />
-            <h2
-              class="text-gray-900 font-bold title-font tracking-wider text-sm"
+            <h1
+              class="text-gray-900 font-bold title-font tracking-wider text-xl"
             >
               Track Progress
-            </h2>
+            </h1>
             <p class="leading-relaxed">
               It shows you at what stage you are at and what work is needed to
               complete a given assignment. Its a motivational aid that helps get
@@ -53,11 +53,11 @@
               class="w-20 h-20 mb-8 object-cover object-center inline-block"
               src="../assets/laugh.png"
             />
-            <h2
-              class="text-gray-900 font-bold title-font tracking-wider text-sm"
+            <h1
+              class="text-gray-900 font-bold title-font tracking-wider text-xl"
             >
               Learning from history
-            </h2>
+            </h1>
             <p class="leading-relaxed">
               When you need to evaluate a new project you can simply tasks and
               accurately estimate how much effort and it will involve
