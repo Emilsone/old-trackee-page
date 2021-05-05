@@ -6,7 +6,7 @@
       >
         <!--Left Col-->
         <div
-          class="flex flex-col w-full md:w-2/5 justify-center lg:items-start items-center text-center md:text-left hero-text"
+          class=" flex flex-col w-full md:w-2/5 justify-center lg:items-start items-center text-center md:text-left hero-text"
         >
           <p class="text-md text-gray-500 font-bold">TASK MANAGEMENT TOOL</p>
           <h1 class="my-4 text-5xl font-bold leading-tight">
@@ -28,7 +28,7 @@
         <!--Right Col-->
         <div class="w-full md:w-3/5 my-12 md:py-6 text-center">
           <img
-            class="w-full md:w-4/5 z-50 md:ml-24 ml-0"
+            class="w-full md:w-4/5 z-50 md:ml-24 ml-0 "
             src="../assets/bg.png"
             alt
           />

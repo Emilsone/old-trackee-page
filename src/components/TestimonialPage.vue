@@ -1,7 +1,5 @@
 <template>
   <main>
-    
-    
      <TestimonialContent />
   </main>
 </template>

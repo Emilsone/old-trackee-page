@@ -11,7 +11,7 @@
         ></div>
 
         <div
-          class="relative text-2xl md:text-5xl py-2 px-6 md:py-6 md:px-1 md:w-64 md:mx-auto text-indigo-100 font-semibold leading-tight tracking-tight mb-0 z-20"
+          class="relative text-2xl md:text-5xl py-2 px-24 md:py-6 md:px-1 md:w-64 md:mx-auto text-indigo-100 font-semibold leading-tight tracking-tight mb-0 z-20"
         >
           <h1>What Our Customers Says About Us</h1>
         </div>
@@ -36,12 +36,15 @@
               <p
                 class="text-gray-600 px-6 py-6 md:px-16 md:py-10 text-xl md:text-2xl"
               >
-                Leverage agile frameworks to provide a robust synopsis for high
-                level overviews. Iterative approaches to corporate strategy
-                foster collaborative thinking to further the overall value
-                proposition. Organically grow the holistic world view of
-                disruptive innovation via workplace diversity and empowerment.
+                Trackee has helped me manage my team work much better. The
+                intuitive interface makes implementaion very easy and my team
+                loves Trackee.
               </p>
+              <img
+                class="h-full w-full object-cover"
+                src="/user/ben.png"
+                alt="Your avatar"
+              />
             </div>
 
             <div v-show="tabActiveIndex === 1">
@@ -51,9 +54,10 @@
             <div v-show="tabActiveIndex === 2">
               <TestimonialThree />
             </div>
+
+            <TestimonialActive @tabchange="changeTab($event)" />
           </div>
         </div>
-        <TestimonialActive @tabchange="changeTab($event)" />
       </div>
     </div>
   </section>
