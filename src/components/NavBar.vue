@@ -51,30 +51,23 @@
             <a
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               href="#"
-              ><router-link to="/dashboard">About Us </router-link></a
+              ><router-link to="/">About Us </router-link></a
             >
           </li>
-
           <li class="mr-3">
             <a
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               href="#"
-              ><router-link to="/">Contact </router-link></a
+              ><router-link to="/">Pricing </router-link></a
             >
           </li>
+
           <template v-if="!CurrentUser">
-            <li class="mr-3">
-              <a
-                class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-                href="#"
-                ><router-link to="/login">Sign In</router-link></a
-              >
-            </li>
             <li class="mr-3">
               <a
                 class="inline-block text-white shadow-2xl btn-sign px-10 no-underline hover:text-underline py-3 md:mx-6"
                 href="#"
-                ><router-link to="/register"> Get Started </router-link></a
+                ><router-link to="/register"> Register </router-link></a
               >
             </li>
           </template>

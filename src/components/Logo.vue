@@ -1,9 +1,9 @@
 <template>
   <a
     :class="classList"
-    class="no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
+    class="no-underline hover:no-underline font-bold text-2xl lg:text-4xl px-6 py-2 task-text"
     href="#"
-    >Trackee<span class="text-4xl word-spacing dot-text">.</span>
+    >Trackee
   </a>
 </template>
 
@@ -34,7 +34,8 @@ export default {
 };
 </script>
 <style scoped>
-.dot-text {
-  color: #66d4d7;
+.task-text{
+  border: 2px solid gray;
+
 }
 </style>
