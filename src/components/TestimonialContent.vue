@@ -11,9 +11,9 @@
         ></div>
 
         <div
-          class="relative text-2xl md:text-5xl py-2 px-24 md:py-6 md:px-1 md:w-64 md:mx-auto text-indigo-100 font-semibold leading-tight tracking-tight mb-0 z-20"
+          class="relative text-2xl md:text-5xl py-2 px-2 md:py-6 md:px-1 md:w-64 md:mx-auto text-indigo-100 font-semibold leading-tight tracking-tight mb-0 z-20"
         >
-          <h1>What Our Customers Says About Us</h1>
+          <h1 class=" text-center md:text-left">What Our Customers Says About Us</h1>
         </div>
       </div>
 
@@ -31,7 +31,7 @@
             </svg>
           </div>
 
-          <div class="h-full relative z-10">
+          <div class="h-full relative z-10 py-6 md:py-0">
             <div v-show="tabActiveIndex === 0">
               <p
                 class="text-gray-600 px-6 py-6 md:px-16 md:py-10 text-xl md:text-2xl"
@@ -40,11 +40,21 @@
                 intuitive interface makes implementaion very easy and my team
                 loves Trackee.
               </p>
-              <img
-                class="h-full w-full object-cover"
-                src="/user/ben.png"
-                alt="Your avatar"
-              />
+              <div class="px-6 md:px-16">
+                <img
+                  class="h-16 w-16 rounded-full"
+                  src="/user/tom.png"
+                  alt="Your avatar"
+                />
+                <h2
+                  class="text-sm md:text-base font-bold text-gray-700 leading-tight"
+                >
+                  John Doe
+                </h2>
+                <small class="text-gray-500 text-xs md:text-sm truncate"
+                  >CEO, ABC Inc.</small
+                >
+              </div>
             </div>
 
             <div v-show="tabActiveIndex === 1">
