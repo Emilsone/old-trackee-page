@@ -1,10 +1,10 @@
 <template>
- <header
+  <header
     class="flex justify-between items-center py-4 px-6 bg-white border-b-4 border-indigo-600"
   >
     <div class="flex items-center">
       <button
-         @click="isOpen = true"
+        @click="isOpen = true"
         class="text-gray-500 focus:outline-none lg:hidden"
       >
         <svg
@@ -22,14 +22,16 @@
           />
         </svg>
       </button>
-		<div class="px-2 md:px-4">
-		<h1>Welcome, <br> <span class="font-bold text-xl">Tracking Dashboard</span>  </h1>
-		</div>
-      
+      <div class="px-2 md:px-4">
+        <h1>
+          Welcome to, <br />
+          <span class="font-bold text-xl">Trackee Dashboard</span>
+        </h1>
+      </div>
     </div>
 
     <div class="flex items-center">
-<div class="relative mx-4 lg:mx-0">
+      <div class="relative mx-4 lg:mx-0">
         <span class="absolute inset-y-0 left-0 pl-3 flex items-center">
           <svg class="h-5 w-5 text-gray-500" viewBox="0 0 24 24" fill="none">
             <path
@@ -71,21 +73,21 @@
           class="relative z-10 block h-8 w-8 rounded-full overflow-hidden shadow focus:outline-none"
         >
           <img
-            class="h-full w-full object-cover "
+            class="h-full w-full object-cover"
             src="/user/ben.png"
             alt="Your avatar"
           />
         </button>
 
         <div
-        v-show="dropdownOpen"
+          v-show="dropdownOpen"
           @click="dropdownOpen = false"
           class="fixed inset-0 h-full w-full z-10"
         ></div>
 
         <div
           v-show="dropdownOpen"
-          class=" absolute right-0 mt-2 py-2 w-48 bg-white rounded-md shadow-xl z-20"
+          class="absolute right-0 mt-2 py-2 w-48 bg-white rounded-md shadow-xl z-20"
         >
           <a
             href="#"
@@ -109,16 +111,13 @@
 </template>
 
 <script>
-
-
 export default {
   name: "Nav",
-// 	data(){
-   
-// 	},
-//     methods: {
-   
-  
-//    }
+  // 	data(){
+
+  // 	},
+  //     methods: {
+
+  //    }
 };
 </script>

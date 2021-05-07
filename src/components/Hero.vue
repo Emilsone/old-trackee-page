@@ -8,7 +8,7 @@
         <div
           class=" flex flex-col w-full md:w-2/5 justify-center lg:items-start items-center text-center md:text-left hero-text"
         >
-          <p class="text-md text-gray-500 font-bold">TASK MANAGEMENT TOOL</p>
+          <p class="text-md  font-bold task-text px-6 py-3">TASK MANAGEMENT TOOL ✔ </p>
           <h1 class="my-4 text-5xl font-bold leading-tight">
             Make task management in your company fun!
           </h1>
@@ -19,7 +19,7 @@
           </p>
           <div class="flex w-full md:justify-start justify-center items-end">
             <button
-              class="inline-flex text-white btn-start border-0 py-3 px-8 xs:px-8 focus:outline-none rounded text-sm xs:text-lg "
+              class="inline-flex text-white btn-start border-0 py-3 px-8 xs:px-8 focus:outline-none rounded text-md xs:text-lg "
             >
               Get Started
             </button>
@@ -48,8 +48,12 @@ export default {
   background: #273335;
   border-radius: 8px;
 }
-.hero-text {
+.hero-text,.task-text {
   color: #273335;
+}
+.task-text{
+  border: 2px solid gray;
+
 }
 </style>
 

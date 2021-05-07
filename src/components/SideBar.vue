@@ -1,16 +1,14 @@
 <template>
-
- <div class="flex">
+  <div class="flex">
     <!-- Backdrop -->
     <div
-      
       class="fixed z-20 inset-0 bg-black opacity-50 transition-opacity lg:hidden"
     ></div>
     <!-- End Backdrop -->
 
     <div
       :class="isOpen ? 'translate-x-0 ease-out' : '-translate-x-full ease-in'"
-      class="fixed z-30 inset-y-0 left-0 w-64 transition duration-300 transform bg-color overflow-y-auto  lg:translate-x-0 lg:static lg:inset-0"
+      class="fixed z-30 inset-y-0 left-0 w-64 transition duration-300 transform bg-color overflow-y-auto lg:translate-x-0 lg:static lg:inset-0"
     >
       <div class="flex items-center justify-center mt-8">
         <div class="flex items-center">
@@ -34,90 +32,72 @@
             />
           </svg>
 
-          <span class="text-white text-2xl mx-2 font-semibold"
-            >Trackee.</span
-          >
+          <span class="text-white text-2xl mx-2 font-semibold">Trackee.</span>
         </div>
       </div>
 
-     <nav>
-      
-
-       <div class="p-6">
-            <button class="w-full cta-btn font-semibold py-2 mt-5  shadow-xl hover:shadow-xl  flex items-center justify-center">
-                <i class="fa fa-plus mr-3"></i> Create New Team
-            </button>
+      <nav>
+        <div class="p-12">
+          <button
+            class="w-full cta-btn font-semibold py-2 mt-5 shadow-xl hover:shadow-xl flex items-center justify-center"
+          >
+            <i class="fa fa-plus mr-3"></i> Create New Team
+          </button>
         </div>
 
-      <router-link to="/overview"
-        ><li>
-          <i class="fa fa-home px-2" aria-hidden="true"></i>Dashboard
-        </li></router-link
-      >
-      <router-link to="/teampage"
-        ><li>
-          <i class="fa fa-users px-2" aria-hidden="true"></i> All Team
-        </li></router-link
-      >
-      <router-link to="/manage"
-        ><li>
-          <i class="fa fa-align-left px-2" aria-hidden="true"></i> Active Task
-        </li></router-link
-      >
-      <router-link to="/personal"
-        ><li>
-          <i class="fa fa-calendar px-2" aria-hidden="true"></i>Calendar
-        </li></router-link
-      >
+        <router-link to="/overview"
+          ><li>
+            <i class="fa fa-home px-2" aria-hidden="true"></i>Dashboard
+          </li></router-link
+        >
+        <router-link to="/teampage"
+          ><li>
+            <i class="fa fa-users px-2" aria-hidden="true"></i> All Team
+          </li></router-link
+        >
+        <router-link to="/manage"
+          ><li>
+            <i class="fa fa-align-left px-2" aria-hidden="true"></i> Active Task
+          </li></router-link
+        >
+        <router-link to="/personal"
+          ><li>
+            <i class="fa fa-calendar px-2" aria-hidden="true"></i>Calendar
+          </li></router-link
+        >
 
-     <router-link to="/personal"
-        ><li>
-          <i class="fa fa-commenting px-2" aria-hidden="true"></i> Messages
-        </li></router-link
-      >
-     <router-link to="/personal"
-        ><li>
-        <i class="fa fa-cog px-2" aria-hidden="true"></i>Settings
-        </li></router-link
-      >
-     <router-link to="/personal"
-        ><li>
-          <i class="fa fa-sign-out px-2" aria-hidden="true"></i> Logout
-        </li></router-link
-      >
-    </nav>
-    <nav>
-      
-
-       <div class="p-6">
-            <h2 class="font-semibold py-2 mt-5 text-white  flex items-center space-between">
-               <span class="mr-5">Categories </span> <i class="fa fa-plus ml-12"></i> 
-            </h2>
+        <router-link to="/personal"
+          ><li>
+            <i class="fa fa-commenting px-2" aria-hidden="true"></i> Messages
+          </li></router-link
+        >
+        <router-link to="/personal"
+          ><li>
+            <i class="fa fa-cog px-2" aria-hidden="true"></i>Settings
+          </li></router-link
+        >
+        <router-link to="/personal"
+          ><li>
+            <i class="fa fa-sign-out px-2" aria-hidden="true"></i> Logout
+          </li></router-link
+        >
+      </nav>
+      <!-------------- Category Section------------------------- -->
+      <!-- <nav>
+        <div class="p-6">
+          <h2
+            class="font-semibold py-2 mt-5 text-white flex items-center space-between"
+          >
+            <span class="mr-5">Categories </span>
+            <i class="fa fa-plus ml-12"></i>
+          </h2>
         </div>
 
-      <router-link to="/engineeringboard"
-        ><li>
-          #Development
-        </li></router-link
-      >
-      <router-link to="/designboard"
-        ><li>
-         #Design
-        </li></router-link
-      >
-      <router-link to="/marketingboard"
-        ><li>
-         #Bussiness
-        </li></router-link
-      >
-      <router-link to="/"
-        ><li>
-           #Management
-        </li></router-link
-      >
-
-     
-    </nav>
+        <router-link to="/engineeringboard"><li>#Development</li></router-link>
+        <router-link to="/designboard"><li>#Design</li></router-link>
+        <router-link to="/marketingboard"><li>#Bussiness</li></router-link>
+        <router-link to="/"><li>#Management</li></router-link>
+      </nav> -->
     </div>
   </div>
 </template>
@@ -125,14 +105,12 @@
 <script>
 export default {
   name: "Side-Bar",
-
-
 };
 </script>
 
 <style scoped>
 .cta-btn {
-  color: white;	
+  color: white;
   border-style: dotted;
 }
 nav {
@@ -156,6 +134,6 @@ a:hover {
   background-color: #1947ee;
 }
 .bg-color {
-  background-color:#0D2CCD;
+  background-color: #0d2ccd;
 }
 </style>
