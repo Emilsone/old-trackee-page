@@ -151,7 +151,7 @@ export default {
 </script>
 <style>
 .btn-sign {
-  background-color: #273335;
+  background-color: #0C0E2D;
   border-radius: 8px;
 }
 </style>

@@ -30,5 +30,6 @@ export default {
 <style scoped>
 .bg-back {
   background: #f0f4f6;
+
 }
 </style>

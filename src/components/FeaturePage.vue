@@ -19,7 +19,7 @@
             <h1
               class="text-gray-900 font-bold title-font tracking-wider text-xl"
             >
-              Time Mmeasurement
+              Time Measurement
             </h1>
             <p class="leading-relaxed">
               It measures time in a friendly way it;'s a trusted assistant for
