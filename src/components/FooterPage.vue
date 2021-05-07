@@ -40,7 +40,7 @@ export default {
 </script>	
 <style  scoped>
 .footer___bg {
-  background-color: black;
+  background-color: #050f1d;
   color: white;
 }
 .blog-text {
