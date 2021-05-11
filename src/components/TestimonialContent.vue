@@ -7,7 +7,7 @@
         class="relative w-full py-2 md:py-24 bg-section md:w-1/2 flex flex-col item-center justify-center"
       >
         <div
-          class=" hidden md:visible absolute top-0 left-0 bg-gray-100 z-10 rounded-full w-16 h-16 md:w-20 md:h-20 md:ml-32 md:mt-24"
+          class=" absolute top-0 left-0 bg-gray-100 z-10 rounded-full w-16 h-16 md:w-20 md:h-20 md:ml-32 md:mt-24"
         >
           <div class="top-0 left-0 mt-3 ml-4 md:mt-6 md:ml-4">
             <svg
