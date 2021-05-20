@@ -4,27 +4,20 @@
       <div class="w-full flex flex-col md:flex-row py-6">
         <LogoFooter />
 
-        <div class="flex-1 px-4 py-6">
+        <div class="flex-1 py-6">
           <p class="uppercase md:mb-6 font-bold">Home</p>
-          
         </div>
-       
 
-         <div class="flex-1 px-4 py-6">
+        <div class="flex-1 py-6">
           <p class="uppercase md:mb-6 font-bold">About Us</p>
-         
         </div>
-         <div class="flex-1 px-4 py-6">
+        <div class="flex-1 py-6">
           <p class="uppercase md:mb-6 font-bold">Features</p>
-         
         </div>
-         <div class="flex-1 px-4 py-6">
+        <div class="flex-1 py-6">
           <p class="uppercase md:mb-6 font-bold">Terms & Conditions</p>
-         
         </div>
-
-       
-      </div>
+      </div> 
     </div>
   </footer>
 </template>

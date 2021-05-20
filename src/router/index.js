@@ -5,7 +5,7 @@ import Dashboard from "../views/Dashboard.vue";
 import Home from "../views/Home.vue";
 import Register from "../views/Register";
 import Login from "../views/Login";
-import Profile from "../views/Profile";
+import overview from "../views/overview.vue";
 
 
 Vue.use(VueRouter);
@@ -34,10 +34,10 @@ const routes = [{
     meta: { guest: true },
 },
 {
-    path: "/profile",
-    name: "Profile",
-    component: Profile,
-    meta: { auth: true },
+    path: "/overview",
+    name: "overview",
+    component: overview,
+    meta: { guest: true },
 },
 ];
 
