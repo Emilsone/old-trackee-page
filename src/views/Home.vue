@@ -2,7 +2,7 @@
   <main>
     <NavBar />
     <hero />
-    <Feature />
+    <FeaturePage />
     <TestimonialPage />
     <FooterPage />
   </main>
@@ -10,14 +10,14 @@
 <script>
 import NavBar from "@/components/NavBar.vue";
 import Hero from "@/components/Hero.vue";
-import Feature from "@/components/Feature.vue";
+import FeaturePage from "@/components/FeaturePage.vue";
 import TestimonialPage from "@/components/TestimonialPage.vue";
 import FooterPage from "@/components/FooterPage.vue";
 export default {
   components: {
     NavBar,
     Hero, 
-    Feature,
+    FeaturePage,
     TestimonialPage,
     FooterPage,
   },

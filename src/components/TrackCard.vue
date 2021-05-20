@@ -10,7 +10,7 @@
             <a href="#" class="bg-yellow-500 py-4 px-6 font-bold text-md ">Choose Plan</a>
           </div>
           <div class=" px-0">
-            <img src="../assets/bitcoin.png" class="w-24 h-24 md:w-48 md:h-48" />
+            <!-- <img src="../assets/bitcoin.png" class="w-24 h-24 md:w-48 md:h-48" /> -->
           </div>
         </div>
       </div>
@@ -21,12 +21,12 @@
         <div class="flex items-center  shadow-sm rounded-md bg-white h-full ">
 
           <!-- <div class=" md:mx-0"> -->
-           <PieChart
+           <!-- <PieChart
             style="width:55%"
             class="mx-auto"
 			:chartdata="dataCollection"
 			:options="chartOptions"
-      />
+      /> -->
           <!-- </div> -->
         </div>
       </div>
@@ -34,31 +34,31 @@
    </section>
 </template>
 <script>
-import PieChart from "./chart/pie.js";
+// import PieChart from "./chart/pie.js";
 export default {
   name: "TrackCard",
-  components: { PieChart },
-  data() {
-    return {
-      chartOptions: {
-        responsive: true,
-        maintainAspectRatio: false,
-        legend: {
-          position: "bottom"
-        },
-        cutoutPercentage: 55
-      },
-      dataCollection: {
-        // labels: ["One", "Two", "Three"],
-        datasets: [
-          {
-            data: [70, 50, 60],
-            backgroundColor: ["#B71C1C", "#E53935", "#E57373"]
-          }
-        ]
-      }
-    };
-  }
+  // components: { PieChart },
+  // data() {
+  //   return {
+  //     chartOptions: {
+  //       responsive: true,
+  //       maintainAspectRatio: false,
+  //       legend: {
+  //         position: "bottom"
+  //       },
+  //       cutoutPercentage: 55
+  //     },
+  //     dataCollection: {
+  //       // labels: ["One", "Two", "Three"],
+  //       datasets: [
+  //         {
+  //           data: [70, 50, 60],
+  //           backgroundColor: ["#B71C1C", "#E53935", "#E57373"]
+  //         }
+  //       ]
+  //     }
+  //   };
+  // }
 };
 </script>
 <style>

@@ -19,10 +19,11 @@
             <h1
               class="text-gray-900 font-bold title-font tracking-wider text-xl"
             >
-              <slot name="headline" />
+              Time Measurement
             </h1>
             <p class="leading-relaxed">
-              <slot name="content" />
+              It measures time in a friendly way it;'s a trusted assistant for
+              your team members not a hard task master
             </p>
           </div>
         </div>
@@ -36,10 +37,12 @@
             <h1
               class="text-gray-900 font-bold title-font tracking-wider text-xl"
             >
-              <slot name="headline" />
+              Track Progress
             </h1>
             <p class="leading-relaxed">
-             <slot name="content" />
+              It shows you at what stage you are at and what work is needed to
+              complete a given assignment. Its a motivational aid that helps get
+              things done.
             </p>
           </div>
         </div>
@@ -53,10 +56,11 @@
             <h1
               class="text-gray-900 font-bold title-font tracking-wider text-xl"
             >
-              <slot name="headline" />
+              Learning from history
             </h1>
             <p class="leading-relaxed">
-             <slot name="content" />
+              When you need to evaluate a new project you can simply tasks and
+              accurately estimate how much effort and it will involve
             </p>
           </div>
         </div>
@@ -66,7 +70,7 @@
 </template>
 <script>
 export default {
-  name: "FeaturePage",
+  name: "Feature",
 };
 </script>
 <style scoped>
