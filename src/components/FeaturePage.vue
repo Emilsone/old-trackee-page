@@ -8,7 +8,7 @@
         Trackee is an intuitive task management tool that your employees will
         love!
       </p>
-      <div class="flex flex-wrap justify-around md:justify-center lg:py-8">
+      <div class="flex flex-wrap justify-around md:justify-center lg:py-8 ">
         <div
           class="
             lg:w-1/3
