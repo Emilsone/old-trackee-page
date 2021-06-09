@@ -3,6 +3,7 @@
     <NavBar />
     <hero />
     <FeaturePage />
+    <SchedulePage />
     <TestimonialPage />
     <FooterPage />
   </main>
@@ -11,6 +12,7 @@
 import NavBar from "@/components/NavBar.vue";
 import Hero from "@/components/Hero.vue";
 import FeaturePage from "@/components/FeaturePage.vue";
+import SchedulePage from "@/components/SchedulePage.vue";
 import TestimonialPage from "@/components/TestimonialPage.vue";
 import FooterPage from "@/components/FooterPage.vue";
 export default {
@@ -18,6 +20,7 @@ export default {
     NavBar,
     Hero, 
     FeaturePage,
+    SchedulePage,
     TestimonialPage,
     FooterPage,
   },
