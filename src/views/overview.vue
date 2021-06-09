@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-back ">
-<TrackCard />
-<TeamCard />
-<TeamData />
+  <div class="bg-back">
+    <TrackCard />
+    <TeamCard />
+    <TeamData />
   </div>
 </template>
 
@@ -13,7 +13,7 @@ import TeamData from "@/components/TeamData.vue";
 
 export default {
   name: "Overview",
-  components: { TrackCard, TeamCard, TeamData }
+  components: { TrackCard, TeamCard, TeamData },
 };
 </script>
 
