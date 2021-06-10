@@ -8,8 +8,8 @@
         <div
           class="flex flex-col w-full md:w-2/5 justify-center lg:items-start items-center text-center md:text-left hero-text"
         >
-          <p class="text-md font-bold task-text px-6 py-3">
-            TASK MANAGEMENT TOOL ✔
+          <p class="text-md font-bold task-text px-6 py-3 uppercase">
+           100% Trusted plartform ✔
           </p>
           <h1 class="my-4 text-5xl font-bold leading-tight">
             The Best Way to <span> Manage </span> Your Team work

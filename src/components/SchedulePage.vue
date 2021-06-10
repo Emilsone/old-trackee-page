@@ -1,6 +1,6 @@
 <template>
   <main>
-    <section class="hero___content bg-gray-200">
+    <section class="hero___content ">
       <div class="md:py-12 py-24">
         <div
           class="
@@ -169,9 +169,10 @@ export default {
   background: #0c0e2d;
   border-radius: 8px;
 }
-.btn-start:hover{
-    box-shadow:rgb(16, 22, 47) 0px 0px 0px 0px;
+.hero___content{
+  background-color:#F3F6F9;
 }
+
 .paragraph{
     color:#0c0e2d;
 }
