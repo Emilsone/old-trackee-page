@@ -1,7 +1,7 @@
 <template>
   <nav :class="headerClassList" class="fixed w-full z-30 top-0 header___bar">
     <div
-      class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2"
+      class="w-full container flex flex-wrap items-center justify-between mt-0 py-2 mx-auto"
     >
       <div class="pl-4 flex items-center">
         <logo :isStickable="true" :isSticky="isSticky" />
@@ -31,14 +31,10 @@
 
       <div
         :class="navContentClassList"
-        class="w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
+        class="w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20 "
       >
-        <ul class="list-reset lg:flex justify-center flex-1 items-center">
-          <li class="mr-3">
-            <a class="inline-block py-2 px-4 text-black no-underline" href="#"
-              ><router-link to="/">Home</router-link></a
-            >
-          </li>
+        <ul class="list-reset lg:flex justify-end flex-1 items-center ">
+         
 
           <li class="mr-3">
             <a
@@ -51,14 +47,21 @@
             <a
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               href="#"
-              ><router-link to="/">About Us </router-link></a
+              ><router-link to="/">Pricing </router-link></a
             >
           </li>
           <li class="mr-3">
             <a
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               href="#"
-              ><router-link to="/">Pricing </router-link></a
+              ><router-link to="/">About</router-link></a
+            >
+          </li>
+          <li class="mr-3">
+            <a
+              class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+              href="#"
+              ><router-link to="/">Contact Us</router-link></a
             >
           </li>
 
