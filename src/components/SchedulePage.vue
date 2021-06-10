@@ -34,7 +34,7 @@
               hero-text
             "
           >
-            <p class="text-md font-bold py-3 uppercase paragraph">Schedule</p>
+            <p class="text-md font-bold py-3 uppercase paragraph">Create ~ Plan ~ Execute</p>
             <h1 class="my-4 text-5xl font-bold leading-tight">
               Manage your team for the better result
             </h1>

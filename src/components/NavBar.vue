@@ -1,7 +1,16 @@
 <template>
   <nav :class="headerClassList" class="fixed w-full z-30 top-0 header___bar">
     <div
-      class="w-full container flex flex-wrap items-center justify-between mt-0 py-2 mx-auto"
+      class="
+        w-full
+        container
+        flex flex-wrap
+        items-center
+        justify-between
+        mt-0
+        py-2
+        mx-auto
+      "
     >
       <div class="pl-4 flex items-center">
         <logo :isStickable="true" :isSticky="isSticky" />
@@ -31,35 +40,76 @@
 
       <div
         :class="navContentClassList"
-        class="w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20 "
+        class="
+          w-full
+          flex-grow
+          lg:flex
+          lg:items-center
+          lg:w-auto
+          lg:block
+          mt-2
+          lg:mt-0
+          bg-white
+          lg:bg-transparent
+          text-black
+          p-4
+          lg:p-0
+          z-20
+        "
       >
-        <ul class="list-reset lg:flex justify-end flex-1 items-center ">
-         
-
+        <ul class="list-reset lg:flex justify-end flex-1 items-center">
           <li class="mr-3">
             <a
-              class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+              class="
+                inline-block
+                text-black
+                no-underline
+                hover:text-gray-800 hover:text-underline
+                py-2
+                px-4
+              "
               href="#"
               ><router-link to="/">Features </router-link></a
             >
           </li>
           <li class="mr-3">
             <a
-              class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+              class="
+                inline-block
+                text-black
+                no-underline
+                hover:text-gray-800 hover:text-underline
+                py-2
+                px-4
+              "
               href="#"
               ><router-link to="/">Pricing </router-link></a
             >
           </li>
           <li class="mr-3">
             <a
-              class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+              class="
+                inline-block
+                text-black
+                no-underline
+                hover:text-gray-800 hover:text-underline
+                py-2
+                px-4
+              "
               href="#"
               ><router-link to="/">About</router-link></a
             >
           </li>
           <li class="mr-3">
             <a
-              class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+              class="
+                inline-block
+                text-black
+                no-underline
+                hover:text-gray-800 hover:text-underline
+                py-2
+                px-4
+              "
               href="#"
               ><router-link to="/">Contact Us</router-link></a
             >
@@ -68,7 +118,17 @@
           <template v-if="!CurrentUser">
             <li class="mr-3">
               <a
-                class="inline-block text-white shadow-2xl btn-sign px-10 no-underline hover:text-underline py-3 md:mx-6"
+                class="
+                  inline-block
+                  text-white
+                  shadow-2xl
+                  btn-sign
+                  px-10
+                  no-underline
+                  hover:text-underline
+                  py-3
+                  md:mx-6
+                "
                 href="#"
                 ><router-link to="/register"> Register </router-link></a
               >
@@ -77,7 +137,14 @@
           <template v-else>
             <li class="mr-3">
               <a
-                class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+                class="
+                  inline-block
+                  text-black
+                  no-underline
+                  hover:text-gray-800 hover:text-underline
+                  py-2
+                  px-4
+                "
                 @click="LogOut"
                 >Log Out</a
               >
@@ -154,7 +221,7 @@ export default {
 </script>
 <style>
 .btn-sign {
-  background-color: #0C0E2D;
+  background-color: #0c0e2d;
   border-radius: 8px;
 }
 </style>
