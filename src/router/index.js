@@ -5,7 +5,7 @@ import Dashboard from "../views/Dashboard.vue";
 import Home from "../views/Home.vue";
 import Register from "../views/Register";
 import Login from "../views/Login";
-import overview from "../views/overview.vue";
+// import overview from "../views/overview.vue";
 
 
 Vue.use(VueRouter);
@@ -33,12 +33,7 @@ const routes = [{
     component: Login,
     meta: { guest: true },
 },
-{
-    path: "/overview",
-    name: "overview",
-    component: overview,
-    meta: { guest: true },
-},
+
 ];
 
 // router.beforeEach((to, from, next) => {

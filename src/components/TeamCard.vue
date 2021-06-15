@@ -22,9 +22,9 @@
         <div class="flex items-center px-5 py-6 shadow-sm rounded-md bg-white">
 
           <div class="mx-5 md:mx-0">
-            <a href="#" class="py-3" >Bussiness Team</a>
+            <a href="#" class="py-3" >Design Team</a>
             <h4 class="text-xl font-semibold text-gray-700">UI/UX</h4>
-            <p class="text-gray-500 text-sm">A great team of digital marketers</p>
+            <p class="text-gray-500 text-sm">A great team of creative designers</p>
           </div>
           <div class="p-3 rounded-full  bg-opacity-75 bg-black ">
             <!-- <i class="fa fa-hand-o-right px-2" aria-hidden="true"></i> -->
@@ -36,11 +36,11 @@
         <div class="flex items-center px-5 py-6 shadow-sm rounded-md bg-white">
 
           <div class="mx-5 md:mx-0">
-           <a href="#" class="py-3">Bussiness Team</a>
+           <a href="#" class="py-3">Development Team</a>
             <h4 class="text-xl font-semibold text-gray-700">
             Web Development
             </h4>
-            <p class="text-gray-500 text-sm">A great team of digital marketers</p>
+            <p class="text-gray-500 text-sm">A great team of creative thinkers</p>
           </div>
           <div class="p-3 rounded-full bg-pink-600 bg-opacity-75">
           </div>
