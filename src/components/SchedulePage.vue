@@ -170,7 +170,7 @@ export default {
   border-radius: 8px;
 }
 .hero___content{
-  background-color:#F3F6F9;
+  background-color:#F2F5FA;
 }
 
 .paragraph{
