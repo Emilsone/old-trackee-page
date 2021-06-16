@@ -53,7 +53,7 @@ export default {
 .hero-text,
 .task-text,
 p {
-  color: #0c0e2d;
+  color: #07080D;
 }
 .task-text {
   border: 2px solid gray;
