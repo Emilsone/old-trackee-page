@@ -16,7 +16,6 @@
             <li class="mt-2 mr-2 md:block md:mr-0 py-2">
               <a href="#" class="no-underline">Pricing</a>
             </li>
-           
           </ul>
         </div>
         <div class="flex-1 py-6">
@@ -31,15 +30,14 @@
             <li class="mt-2 mr-2 md:block md:mr-0 py-2">
               <a href="#" class="no-underline">Task List </a>
             </li>
-             <li class="mt-2 mr-2 md:block md:mr-0 py-2">
+            <li class="mt-2 mr-2 md:block md:mr-0 py-2">
               <a href="#" class="no-underline">Activity Report</a>
             </li>
-
           </ul>
         </div>
         <div class="flex-1 py-6">
           <p class="uppercase md:mb-6 font-bold">Help Center</p>
-           <ul class="list-reset mb-6">
+          <ul class="list-reset mb-6">
             <li class="mt-2 block mr-2 md:block md:mr-0 py-2">
               <a href="#" class="no-underline">Terms & Condition </a>
             </li>
@@ -49,12 +47,14 @@
             <li class="mt-2 mr-2 md:block md:mr-0 py-2">
               <a href="#" class="no-underline">Privacy </a>
             </li>
-             <li class="mt-2 mr-2 md:block md:mr-0 py-2">
+            <li class="mt-2 mr-2 md:block md:mr-0 py-2">
               <a href="#" class="no-underline">Contact Us</a>
             </li>
-
           </ul>
         </div>
+      </div>
+      <div class="flex md:text-center text-right">
+        <p>© Trackee 2021. All rights reserved.</p>
       </div>
     </div>
   </footer>
@@ -72,7 +72,7 @@ export default {
 <style  scoped>
 .footer___bg {
   /* background-color: #050f1d; */
- color:#0c0e2d;
+  color: #0c0e2d;
 }
 .blog-text {
   color: #66d4d7;
