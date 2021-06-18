@@ -196,7 +196,7 @@
                 btn-text
                 uppercase
                 transition-colors
-                border-2
+                border-btn
                 focus:outline-none
               "
             >
@@ -373,7 +373,7 @@
                 btn-text
                 uppercase
                 transition-colors
-                border-2
+                border-btn
                 focus:outline-none
               "
             >
@@ -577,7 +577,7 @@
                 btn-text
                 uppercase
                 transition-colors
-                border-2
+                border-btn
                 focus:outline-none
               "
             >
@@ -604,5 +604,12 @@ export default {
 }
 .heading-text {
   color: #0c0e2d;
+}
+.border-btn{
+  border:1px solid #0c0e2d;
+}
+.border-btn:hover{
+  background-color: #0c0e2d;
+  color:#FFFEFE;
 }
 </style>

@@ -130,7 +130,7 @@
                   md:mx-6
                 "
                 href="#"
-                ><router-link to="/register"> Register </router-link></a
+                ><router-link to="/register"> Sign In </router-link></a
               >
             </li>
           </template>
