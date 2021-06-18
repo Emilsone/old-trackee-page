@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="bg-white ">
+    <div class="bg-white">
       <div class="container px-6 py-8 mx-auto">
         <div class="sm:flex sm:items-center sm:justify-between">
           <div class="py-6">
@@ -12,13 +12,7 @@
             </h2>
           </div>
 
-          <div
-            class="
-              overflow-hidden
-              p-0.5
-              mt-6
-            "
-          >
+          <div class="overflow-hidden p-0.5 mt-6">
             <div class="sm:-mx-0.5 flex">
               <button
                 class="
@@ -30,7 +24,6 @@
                   sm:mx-0.5
                   text-white
                   bg-month
-                  
                 "
               >
                 Monthly
@@ -43,10 +36,8 @@
                   sm:w-auto
                   py-2
                   sm:mx-0.5
-                  text-gray-800
-                  text-black
+                  text-gray-800 text-black
                   bg-year
-                  
                 "
               >
                 Yearly
@@ -73,10 +64,8 @@
               max-w-sm
               p-8
               space-y-8
-              text-center
               bg-white
               border-2 border-gray-200
-              rounded-lg
               lg:mx-4
               dark:bg-gray-800
               dark:border-gray-700
@@ -93,7 +82,6 @@
                   tracking-tight
                   heading-text
                   uppercase
-                  rounded-lg
                   bg-gray-50
                   dark:bg-gray-700
                 "
@@ -116,11 +104,85 @@
               </span>
             </div>
             <ul class="flex-1 space-y-4">
-              <li class="text-gray-500 dark:text-gray-400">Up to 5 projects</li>
               <li class="text-gray-500 dark:text-gray-400">
+                <span
+                  class="
+                    heading-text
+                    w-4
+                    h-4
+                    mr-2
+                    rounded-full
+                    inline-flex
+                    items-center
+                    justify-center
+                  "
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg> </span
+                >Up to 5 projects
+              </li>
+              <li class="text-gray-500 dark:text-gray-400">
+                <span
+                  class="
+                    heading-text
+                    w-4
+                    h-4
+                    mr-2
+                    rounded-full
+                    inline-flex
+                    items-center
+                    justify-center
+                  "
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
                 Up to 10 collaborators
               </li>
-              <li class="text-gray-500 dark:text-gray-400">2Gb of storage</li>
+              <li class="text-gray-500 dark:text-gray-400">
+                <span
+                  class="
+                    heading-text
+                    w-4
+                    h-4
+                    mr-2
+                    rounded-full
+                    inline-flex
+                    items-center
+                    justify-center
+                  "
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg> </span
+                >2Gb of storage
+              </li>
             </ul>
 
             <button
@@ -129,18 +191,16 @@
                 items-center
                 justify-center
                 px-4
-                py-2
+                py-4
                 font-semibold
                 btn-text
                 uppercase
                 transition-colors
-                 border-2
-           
-                
+                border-2
                 focus:outline-none
               "
             >
-              Start free
+              Get Started
             </button>
           </div>
 
@@ -151,10 +211,8 @@
               max-w-sm
               p-8
               space-y-8
-              text-center
               bg-white
               border-2 border-gray-200
-              rounded-lg
               lg:mx-4
               dark:bg-gray-800
               dark:border-gray-700
@@ -171,7 +229,6 @@
                   tracking-tight
                   heading-text
                   uppercase
-                  rounded-lg
                   bg-gray-50
                   dark:bg-gray-700
                 "
@@ -196,13 +253,111 @@
             </div>
             <ul class="flex-1 space-y-4">
               <li class="text-gray-500 dark:text-gray-400">
+                <span
+                  class="
+                    heading-text
+                    w-4
+                    h-4
+                    mr-2
+                    rounded-full
+                    inline-flex
+                    items-center
+                    justify-center
+                  "
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
                 Up to 10 projects
               </li>
               <li class="text-gray-500 dark:text-gray-400">
+                <span
+                  class="
+                    heading-text
+                    w-4
+                    h-4
+                    mr-2
+                    rounded-full
+                    inline-flex
+                    items-center
+                    justify-center
+                  "
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
                 Up to 20 collaborators
               </li>
-              <li class="text-gray-500 dark:text-gray-400">10Gb of storage</li>
               <li class="text-gray-500 dark:text-gray-400">
+                <span
+                  class="
+                    heading-text
+                    w-4
+                    h-4
+                    mr-2
+                    rounded-full
+                    inline-flex
+                    items-center
+                    justify-center
+                  "
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                10Gb of storage
+              </li>
+              <li class="text-gray-500 dark:text-gray-400">
+                <span
+                  class="
+                    heading-text
+                    w-4
+                    h-4
+                    mr-2
+                    rounded-full
+                    inline-flex
+                    items-center
+                    justify-center
+                  "
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
                 Real-time collaborations
               </li>
             </ul>
@@ -213,17 +368,17 @@
                 items-center
                 justify-center
                 px-4
-                py-2
+                py-4
                 font-semibold
                 btn-text
                 uppercase
                 transition-colors
-                 border-2
-                
+                border-2
                 focus:outline-none
               "
             >
-              Start free trial
+              <i class="fa fa-shopping-cart px-1" aria-hidden="true"></i>
+              Purchase Now
             </button>
           </div>
 
@@ -234,10 +389,8 @@
               max-w-sm
               p-8
               space-y-8
-              text-center
               bg-white
               border-2 border-gray-200
-              rounded-lg
               lg:mx-4
               dark:bg-gray-800
               dark:border-gray-700
@@ -254,7 +407,7 @@
                   tracking-tight
                   heading-text
                   uppercase
-                    bg-gray-50
+                  bg-gray-50
                   dark:bg-gray-700
                 "
               >
@@ -278,18 +431,139 @@
             </div>
             <ul class="flex-1 space-y-4">
               <li class="text-gray-500 dark:text-gray-400">
+                <span
+                  class="
+                    heading-text
+                    w-4
+                    h-4
+                    mr-2
+                    rounded-full
+                    inline-flex
+                    items-center
+                    justify-center
+                  "
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
                 Unlimited projects
               </li>
               <li class="text-gray-500 dark:text-gray-400">
+                <span
+                  class="
+                    heading-text
+                    w-4
+                    h-4
+                    mr-2
+                    rounded-full
+                    inline-flex
+                    items-center
+                    justify-center
+                  "
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
                 Unlimited collaborators
               </li>
               <li class="text-gray-500 dark:text-gray-400">
+                <span
+                  class="
+                    heading-text
+                    w-4
+                    h-4
+                    mr-2
+                    rounded-full
+                    inline-flex
+                    items-center
+                    justify-center
+                  "
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
                 Unlimited storage
               </li>
               <li class="text-gray-500 dark:text-gray-400">
+                <span
+                  class="
+                    heading-text
+                    w-4
+                    h-4
+                    mr-2
+                    rounded-full
+                    inline-flex
+                    items-center
+                    justify-center
+                  "
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
                 Real-time collaborations
               </li>
-              <li class="text-gray-500 dark:text-gray-400">24x7 Support</li>
+              <li class="text-gray-500 dark:text-gray-400">
+                <span
+                  class="
+                    heading-text
+                    w-4
+                    h-4
+                    mr-2
+                    rounded-full
+                    inline-flex
+                    items-center
+                    justify-center
+                  "
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg> </span
+                >24x7 Support
+              </li>
             </ul>
 
             <button
@@ -298,17 +572,17 @@
                 items-center
                 justify-center
                 px-4
-                py-2
+                py-4
                 font-semibold
                 btn-text
                 uppercase
                 transition-colors
                 border-2
-                
                 focus:outline-none
               "
             >
-              Start free trial
+              <i class="fa fa-shopping-cart px-1" aria-hidden="true"></i>
+              Purchase Now
             </button>
           </div>
         </div>
@@ -325,10 +599,10 @@ export default {
 .bg-month {
   background: #0c0e2d;
 }
-.bg-year{
-  background-color:#F2F5FA;
+.bg-year {
+  background-color: #f2f5fa;
 }
-.heading-text{
-    color: #0c0e2d;
+.heading-text {
+  color: #0c0e2d;
 }
 </style>
