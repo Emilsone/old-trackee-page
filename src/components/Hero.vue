@@ -21,9 +21,9 @@
           </p>
           <div class="flex w-full md:justify-start justify-center items-end">
             <button
-              class="inline-flex text-white btn-start border-0 py-3 px-8 xs:px-8 focus:outline-none rounded text-md xs:text-lg"
+              class="inline-flex text-white btn-start border-0 py-4 px-12 xs:px-8 focus:outline-none rounded text-md xs:text-lg"
             >
-              Get Started
+             Start Free Trial
             </button>
           </div>
         </div>
