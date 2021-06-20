@@ -19,7 +19,6 @@
       collaboration, with a high performance results
     </p>
 
-     <i class="fa fa-envelope text-xl px-1" aria-hidden="true"></i> <a href="mailto:" class="px-2">hello@trackee.com</a>
 
     
   </div>

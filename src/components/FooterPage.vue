@@ -47,9 +47,8 @@
             <li class="mt-2 mr-2 md:block md:mr-0 py-2">
               <a href="#" class="no-underline">Privacy </a>
             </li>
-            <li class="mt-2 mr-2 md:block md:mr-0 py-2">
-              <a href="#" class="no-underline">Contact Us</a>
-            </li>
+            <i class="fa fa-envelope text-xl" aria-hidden="true"></i>
+            <a href="mailto:" class="px-2">hello@trackee.com</a>
           </ul>
         </div>
       </div>

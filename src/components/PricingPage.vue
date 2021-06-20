@@ -388,7 +388,7 @@
               w-full
               max-w-sm
               p-8
-              space-y-8
+              space-y-8 
               bg-white
               border-2 border-gray-200
               lg:mx-4
@@ -605,11 +605,11 @@ export default {
 .heading-text {
   color: #0c0e2d;
 }
-.border-btn{
-  border:1px solid #0c0e2d;
+.border-btn {
+  border: 1px solid #0c0e2d;
 }
-.border-btn:hover{
+.border-btn:hover {
   background-color: #0c0e2d;
-  color:#FFFEFE;
+  color: #fffefe;
 }
 </style>
