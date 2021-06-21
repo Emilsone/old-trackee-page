@@ -14,11 +14,11 @@
         >
           <!--Right Col-->
           <div class="w-full md:w-3/5 my-12 md:py-6 text-center">
-            <!-- <img
+            <img
               class="w-full md:w-4/5 z-50 md:ml-24 ml-0"
-              src="../assets/bg-hero.png"
+              src="../assets/laptop-2.png"
               alt
-            /> -->
+            />
           </div>
           <!--Left Col-->
           <div
