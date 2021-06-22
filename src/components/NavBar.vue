@@ -97,7 +97,7 @@
                 px-4
               "
               href="#"
-              ><router-link to="/">About</router-link></a
+              ><router-link to="/dashboard">About</router-link></a
             >
           </li>
           <li class="mr-3">
