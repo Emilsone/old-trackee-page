@@ -47,8 +47,24 @@
             <li class="mt-2 mr-2 md:block md:mr-0 py-2">
               <a href="#" class="no-underline">Privacy </a>
             </li>
-            <i class="fa fa-envelope text-xl" aria-hidden="true"></i>
+            <span class="flex">
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+              />
+            </svg>
             <a href="mailto:" class="px-2">hello@trackee.com</a>
+            </span>
           </ul>
         </div>
       </div>
@@ -72,8 +88,8 @@ export default {
 .footer___bg {
   /* background-color: #050f1d; */
   color: #0c0e2d;
+  background-color: #F9F9F9;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23f9f9f9' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 }
-.blog-text {
-  color: #66d4d7;
-}
+
 </style>
