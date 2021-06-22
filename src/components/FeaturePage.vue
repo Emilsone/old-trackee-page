@@ -13,11 +13,11 @@
       >
         <!--Right Col-->
         <div class="w-full md:w-3/5 my-12 md:py-6 text-center">
-          <!-- <img
+          <img
               class="w-full md:w-4/5 z-50 md:ml-24 ml-0"
-              src="../assets/bg-hero.png"
+              src="../assets/Time-img.png"
               alt
-            /> -->
+            />
         </div>
         <!--Left Col-->
         <div
@@ -116,11 +116,11 @@
         </div>
         <!--Right Col-->
         <div class="w-full md:w-3/5 my-12 md:py-6 text-center">
-          <!-- <img
+          <img
               class="w-full md:w-4/5 z-50 md:ml-24 ml-0"
-              src="../assets/bg-hero.png"
+              src="../assets/Progress-2.png"
               alt
-            /> -->
+            />
         </div>
       </div>
     </div>
@@ -137,11 +137,11 @@
       >
         <!--Right Col-->
         <div class="w-full md:w-3/5 my-12 md:py-6 text-center">
-          <!-- <img
+          <img
               class="w-full md:w-4/5 z-50 md:ml-24 ml-0"
-              src="../assets/bg-hero.png"
+              src="../assets/Learning-pana.png"
               alt
-            /> -->
+            />
         </div>
         <!--Left Col-->
         <div
@@ -164,8 +164,10 @@
             Learning from history
           </h1>
           <p class="leading-relaxed">
-            It measures time in a friendly way it's a trusted assistant for your
-            team members not a hard task master for your team
+           When you need to evaluate a new project you can simply tasks and accurately estimate how much effort  and it will involve
+
+          
+
           </p>
 
           <p class="py-4">
