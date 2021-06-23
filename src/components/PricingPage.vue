@@ -277,7 +277,7 @@
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                Up to 10 projects
+                Up to 20 projects
               </li>
               <li class="text-gray-500 dark:text-gray-400">
                 <span
