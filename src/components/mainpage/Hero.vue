@@ -19,19 +19,30 @@
             measure the progress and time spent on given task, To help them make
             the most of their effort.
           </p>
-          <div class="flex w-full md:justify-start justify-center items-end">
-            <button
-              class="inline-flex text-white btn-start border-0 py-4 px-12 xs:px-8 focus:outline-none rounded text-md xs:text-lg"
-            >
-             Start Free Trial
-            </button>
+          <div class="flex w-full md:justify-start justify-center items-end items-center flex-wrap sm:m-4">
+            <a
+                class="
+                  inline-block
+                  text-white
+                  shadow-2xl
+                  btn-sign
+                  px-10
+                  no-underline
+                  hover:text-underline
+                  py-3
+                  
+                "
+                href="#"
+                ><router-link to="/register"> Start Free Trial </router-link></a
+              >
+              <p>No credit card required</p>
           </div>
         </div>
         <!--Right Col-->
         <div class="w-full md:w-3/5 my-12 md:py-6 text-center">
           <img
             class="w-full md:w-4/5 z-50 md:ml-24 ml-0"
-            src="../assets/bg-hero.png"
+            src="@/assets/bg-hero.png"
             alt
           />
         </div>

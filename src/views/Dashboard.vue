@@ -16,7 +16,7 @@
 
 <script>
 import NavLink from "@/components/NavLink.vue";
-import SideBar from "@/components/SideBar.vue";
+import SideBar from "@/components/sidebar/SideBar.vue";
 import overview from "@/components/overview.vue";
 export default {
   name: "Dashboard",
