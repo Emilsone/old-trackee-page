@@ -76,9 +76,9 @@
 </template>
 
 <script>
-import LogoFooter from "@/components/LogoFooter";
+import LogoFooter from "@/components/mainpage/LogoFooter";
 export default {
-  name: "Footer",
+  name: "TheFooter",
   components: {
     LogoFooter,
   },

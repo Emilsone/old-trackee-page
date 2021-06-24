@@ -184,24 +184,26 @@
                 >2Gb of storage
               </li>
             </ul>
-
-            <button
-              class="
-                inline-flex
-                items-center
-                justify-center
-                px-4
-                py-4
-                font-semibold
-                btn-text
-                uppercase
-                transition-colors
-                border-btn
-                focus:outline-none
-              "
-            >
-              Get Started
-            </button>
+            <router-link to="/register">
+              <a to="/register"
+                class="
+                 flex
+                  items-center
+                  justify-center
+                
+                  px-8
+                  py-4
+                  font-semibold
+                  btn-text
+                  uppercase
+                  transition-colors
+                  border-btn
+                  focus:outline-none
+                "
+              >
+                Get Started
+              </a>
+            </router-link>
           </div>
 
           <div
@@ -361,25 +363,26 @@
                 Real-time collaborations
               </li>
             </ul>
-
-            <button
-              class="
-                inline-flex
-                items-center
-                justify-center
-                px-4
-                py-4
-                font-semibold
-                btn-text
-                uppercase
-                transition-colors
-                border-btn
-                focus:outline-none
-              "
-            >
-              <i class="fa fa-shopping-cart px-1" aria-hidden="true"></i>
-              Purchase Now
-            </button>
+            <router-link to="/">
+              <a
+                class="
+                  flex
+                  items-center
+                  justify-center
+                  px-4
+                  py-4
+                  font-semibold
+                  btn-text
+                  uppercase
+                  transition-colors
+                  border-btn
+                  focus:outline-none
+                "
+              >
+                <i class="fa fa-shopping-cart px-1" aria-hidden="true"></i>
+                Purchase Now
+              </a>
+            </router-link>
           </div>
 
           <div
@@ -388,7 +391,7 @@
               w-full
               max-w-sm
               p-8
-              space-y-8 
+              space-y-8
               bg-white
               border-2 border-gray-200
               lg:mx-4
@@ -565,25 +568,26 @@
                 >24x7 Support
               </li>
             </ul>
-
-            <button
-              class="
-                inline-flex
-                items-center
-                justify-center
-                px-4
-                py-4
-                font-semibold
-                btn-text
-                uppercase
-                transition-colors
-                border-btn
-                focus:outline-none
-              "
-            >
-              <i class="fa fa-shopping-cart px-1" aria-hidden="true"></i>
-              Purchase Now
-            </button>
+            <router-link to="/">
+              <a
+                class="
+                 flex
+                  items-center
+                  justify-center
+                  px-4
+                  py-4
+                  font-semibold
+                  btn-text
+                  uppercase
+                  transition-colors
+                  border-btn
+                  focus:outline-none
+                "
+              >
+                <i class="fa fa-shopping-cart px-1" aria-hidden="true"></i>
+                Purchase Now
+              </a>
+            </router-link>
           </div>
         </div>
       </div>

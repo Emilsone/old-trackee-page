@@ -58,6 +58,20 @@
         "
       >
         <ul class="list-reset lg:flex justify-end flex-1 items-center">
+           <li class="mr-3">
+            <a
+              class="
+                inline-block
+                text-black
+                no-underline
+                hover:text-gray-800 hover:text-underline
+                py-2
+                px-4
+              "
+              href="#"
+              ><router-link to="/">Features</router-link></a
+            >
+          </li>
           <li class="mr-3">
             <a
               class="
@@ -69,7 +83,7 @@
                 px-4
               "
               href="#"
-              ><router-link to="/">Features </router-link></a
+              ><router-link to="/">Resources </router-link></a
             >
           </li>
           <li class="mr-3">
@@ -97,25 +111,12 @@
                 px-4
               "
               href="#"
-              ><router-link to="/dashboard">About</router-link></a
+              ><router-link to="/">Faq</router-link></a
             >
           </li>
-          <li class="mr-3">
-            <a
-              class="
-                inline-block
-                text-black
-                no-underline
-                hover:text-gray-800 hover:text-underline
-                py-2
-                px-4
-              "
-              href="#"
-              ><router-link to="/">Contact Us</router-link></a
-            >
-          </li>
+         
 
-          <template v-if="!CurrentUser">
+          <template>
             <li class="mr-3">
               <a
                 class="
@@ -130,26 +131,11 @@
                   md:mx-6
                 "
                 href="#"
-                ><router-link to="/register"> Sign In </router-link></a
+                ><router-link to="/register"> Start Free Trial </router-link></a
               >
             </li>
           </template>
-          <template v-else>
-            <li class="mr-3">
-              <a
-                class="
-                  inline-block
-                  text-black
-                  no-underline
-                  hover:text-gray-800 hover:text-underline
-                  py-2
-                  px-4
-                "
-                @click="LogOut"
-                >Log Out</a
-              >
-            </li>
-          </template>
+         
         </ul>
       </div>
     </div>
@@ -158,7 +144,7 @@
 </template>
 
 <script>
-import Logo from "@/components/Logo";
+import Logo from "@/components/mainpage/Logo";
 // import database from "../services/database";
 
 export default {
