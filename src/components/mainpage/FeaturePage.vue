@@ -1,6 +1,10 @@
 <template>
   <section class="body-font">
     <div class="md:py-12 py-24">
+      <h1 class="text-3xl font-bold title-font text-black text-center">
+        Our Features
+      </h1>
+
       <div
         class="
           container
@@ -11,7 +15,6 @@
           items-center
         "
       >
-        
         <!--Left Col-->
         <div
           class="
@@ -27,8 +30,8 @@
             space-y-10
           "
         >
-          <p class="text-md font-bold  uppercase paragraph">
-          <span class="px-3">01.</span> Time
+          <p class="text-md font-bold uppercase paragraph">
+            <span class="px-3">01.</span> Time
           </p>
           <h1 class="my-4 text-4xl font-bold leading-tight">
             Time Measurement
@@ -58,10 +61,10 @@
         <!--Right Col-->
         <div class="w-full md:w-3/5 my-12 md:py-6 text-center">
           <img
-              class="w-full md:w-4/5 z-50 md:ml-24 ml-0"
-              src="@/assets/Time-img.png"
-              alt
-            />
+            class="w-full md:w-4/5 z-50 md:ml-24 ml-0"
+            src="@/assets/Time-img.png"
+            alt
+          />
         </div>
       </div>
     </div>
@@ -77,14 +80,13 @@
           items-center
         "
       >
-
-      <!--Right Col-->
+        <!--Right Col-->
         <div class="w-full md:w-3/5 my-12 md:py-6 text-center">
           <img
-              class="w-full md:w-4/5 z-50 md:ml-24 ml-0"
-              src="@/assets/Progress-2.png"
-              alt
-            />
+            class="w-full md:w-4/5 z-50 md:ml-24 ml-0"
+            src="@/assets/Progress-2.png"
+            alt
+          />
         </div>
         <!--Left Col-->
         <div
@@ -101,7 +103,9 @@
             space-y-10
           "
         >
-          <p class="text-md font-bold  uppercase paragraph">  <span class="px-3">02.</span> Progress</p>
+          <p class="text-md font-bold uppercase paragraph">
+            <span class="px-3">02.</span> Progress
+          </p>
           <h1 class="my-4 text-4xl font-bold leading-tight">Track Progress</h1>
           <p class="leading-relaxed">
             It shows you at what stage you are at and what work is needed to
@@ -126,7 +130,6 @@
             </a>
           </p>
         </div>
-        
       </div>
     </div>
     <div class="md:py-12 py-12">
@@ -141,7 +144,7 @@
         "
       >
         <!--Right Col-->
-        
+
         <div
           class="
             flex flex-col
@@ -156,17 +159,15 @@
             space-y-10
           "
         >
-          <p class="text-md font-bold  uppercase paragraph">
+          <p class="text-md font-bold uppercase paragraph">
             <span class="px-3">03.</span> History
           </p>
           <h1 class="my-4 text-4xl font-bold leading-tight">
             Learning from history
           </h1>
           <p class="leading-relaxed">
-           When you need to evaluate a new project you can simply tasks and accurately estimate how much effort  and it will involve
-
-          
-
+            When you need to evaluate a new project you can simply tasks and
+            accurately estimate how much effort and it will involve
           </p>
 
           <p class="py-4">
@@ -191,10 +192,10 @@
         <!--Left Col-->
         <div class="w-full md:w-3/5 my-12 md:py-6 text-center">
           <img
-              class="w-full md:w-4/5 z-50 md:ml-24 ml-0"
-              src="@/assets/Learning-pana.png"
-              alt
-            />
+            class="w-full md:w-4/5 z-50 md:ml-24 ml-0"
+            src="@/assets/Learning-pana.png"
+            alt
+          />
         </div>
       </div>
     </div>
@@ -210,7 +211,7 @@ export default {
   color: #0c0e2d;
 }
 .bg-explore {
-  background-color: #F2F5FA;
+  background-color: #f2f5fa;
 }
 </style>
 
