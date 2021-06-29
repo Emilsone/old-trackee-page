@@ -33,7 +33,12 @@ const routes = [{
     component: Login,
     meta: { guest: true },
 },
-
+// {
+//     path: "/overview",
+//     name: "overview",
+//     component: overview,
+//     meta: { guest: true },
+// },
 ];
 
 // router.beforeEach((to, from, next) => {
