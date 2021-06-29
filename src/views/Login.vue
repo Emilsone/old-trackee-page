@@ -140,9 +140,12 @@
   
 
 <script>
+// import { mapActions } from "vuex";
+// import database from "../services/database";
+
 export default {
   name: "Login",
-
+  components: {},
   data() {
     return {
       form: {
@@ -151,8 +154,19 @@ export default {
         password: "",
       },
       error: "",
+      
     };
   },
+  // methods: {
+  //   async signIn() {
+  //     let result = await database.signIn(this.email, this.password);
+  //     if (result.message) {
+  //       this.error = result.message;
+  //     } else {
+  //       console.log("User is Logged in");
+  //     }
+  //   },
+  // },
 };
 </script>
 
@@ -165,7 +179,5 @@ export default {
   color: red;
 }
 
-.login-bg {
-  background: #f2c98a;
-}
+
 </style>

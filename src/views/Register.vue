@@ -1,16 +1,26 @@
 
 <template>
   <div class="bg-white h-screen">
-    <div class="w-full ">
+    <div class="w-full">
       <!-- Register Section -->
       <div class="w-full md:w-1/2 mx-auto">
         <div
-          class="flex flex-col justify-center md:justify-start my-auto pt-8 md:pt-0 px-8 md:px-24 lg:px-32"
+          class="
+            flex flex-col
+            justify-center
+            md:justify-start
+            my-auto
+            pt-8
+            md:pt-0
+            px-8
+            md:px-24
+            lg:px-32
+          "
         >
           <span class="text-xs font-bold md:pt-12">BEGIN YOUR JOURNEY </span>
           <p class="text-3xl font-bold pt-0 md:pt-2">Sign Up Now</p>
           <form class="flex flex-col pt-3 md:pt-8" @submit.prevent="signUp">
-            <div class="flex flex-col pt-4">
+            <!-- <div class="flex flex-col pt-4">
               <label for="name" class="text-lg">NAME</label>
               <input
                 v-model="form.name"
@@ -18,10 +28,9 @@
                 id="name"
                 placeholder="John Smith"
                 class="border border-gray-500 p-2"
-                :rules="usernameRules"
                 required
               />
-            </div>
+            </div> -->
 
             <div class="flex flex-col pt-4">
               <label for="email" class="text-lg">EMAIL</label>
@@ -31,7 +40,6 @@
                 id="email"
                 placeholder="your@email.com"
                 class="border border-gray-500 p-2"
-                :rules="emailRules"
                 required
               />
             </div>
@@ -46,7 +54,6 @@
                 placeholder="Your Password"
                 class="border border-gray-500 p-2"
                 required
-                :rules="password2Rules"
               />
             </div>
             <div class="flex flex-col pt-4">
@@ -57,7 +64,6 @@
                 id="password"
                 placeholder="Password"
                 class="border border-gray-500 p-2"
-                :rules="password2Rules"
                 required
               />
             </div>
@@ -75,7 +81,13 @@
               </p>
             </div>
             <div
-              class="flex flex-wrap align-center justify-between lg:space-x-5 py-3"
+              class="
+                flex flex-wrap
+                align-center
+                justify-between
+                lg:space-x-5
+                py-3
+              "
             >
               <button
                 type="submit"
@@ -131,7 +143,16 @@
             </div>
             <!-- component -->
             <div
-              class="bg-red border border-red-light text-red-dark pl-4 pr-8 py-3 rounded relative"
+              class="
+                bg-red
+                border border-red-light
+                text-red-dark
+                pl-4
+                pr-8
+                py-3
+                rounded
+                relative
+              "
               role="alert"
               v-if="error"
             >
@@ -154,8 +175,6 @@
           </form>
         </div>
       </div>
-
-     
     </div>
   </div>
 </template>
@@ -167,7 +186,7 @@
 
 <script>
 // import { mapActions } from "vuex";
-
+import database from "../services/database";
 
 export default {
   name: "Register",
@@ -175,21 +194,27 @@ export default {
   data() {
     return {
       form: {
-        name: "",
+        // name: "",
         email: "",
         password: "",
       },
       error: "",
     };
   },
+  methods: {
+    async signUp() {
+      let result = await database.signUp(this.email, this.password);
+      // this.$router.push("/");
+      if (result.message) {
+        this.error = result.message;
+      }
+      console.log("user is created");
+    },
+  },
 };
 </script>
 <style scoped>
 * {
   box-sizing: border-box;
-}
-
-.login-bg {
-  background: #f2c98a;
 }
 </style>
