@@ -72,8 +72,9 @@
               ><router-link to="/">Features</router-link></a
             >
           </li>
+           
           <li class="mr-3">
-            <a
+           <a
               class="
                 inline-block
                 text-black
@@ -83,7 +84,7 @@
                 px-4
               "
               href="#"
-              ><router-link to="/">Resources </router-link></a
+              ><DropDownMenu  /></a
             >
           </li>
           <li class="mr-3">
@@ -145,12 +146,15 @@
 
 <script>
 import Logo from "@/components/mainpage/Logo";
+import DropDownMenu from "@/components/mainpage/DropDownMenu";
+
 // import database from "../services/database";
 
 export default {
   name: "NavBar",
   components: {
     logo: Logo,
+    DropDownMenu,
   },
   data() {
     return {
