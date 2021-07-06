@@ -16,6 +16,12 @@
             <li class="mt-2 mr-2 md:block md:mr-0 py-2">
               <a href="#" class="no-underline">Pricing</a>
             </li>
+             <li class="mt-2 mr-2 md:block md:mr-0 py-2">
+              <a href="#" class="no-underline">Blog</a>
+            </li>
+             <li class="mt-2 mr-2 md:block md:mr-0 py-2">
+              <a href="#" class="no-underline">Resources</a>
+            </li>
           </ul>
         </div>
         <div class="flex-1 py-6">
@@ -29,6 +35,9 @@
             </li>
             <li class="mt-2 mr-2 md:block md:mr-0 py-2">
               <a href="#" class="no-underline">Task List </a>
+            </li>
+            <li class="mt-2 mr-2 md:block md:mr-0 py-2">
+              <a href="#" class="no-underline">Progress Tracking</a>
             </li>
             <li class="mt-2 mr-2 md:block md:mr-0 py-2">
               <a href="#" class="no-underline">Activity Report</a>
