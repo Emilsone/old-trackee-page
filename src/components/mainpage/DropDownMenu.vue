@@ -5,7 +5,7 @@
                 <!-- Code block starts -->
                 <div class="relative">
                     <div class=" flex items-center justify-between   cursor-pointer" data-menu>
-                        <p class="pl-3  text-gray-600 dark:text-gray-400 text-sm leading-3 tracking-normal font-normal">Resources</p>
+                        <p class="pl-3   text-sm leading-3 tracking-normal font-normal">Resources</p>
                         <div class="cursor-pointer text-gray-600 dark:text-gray-400 mr-3">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-up" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                 <path stroke="none" d="M0 0h24v24H0z" />
@@ -18,10 +18,10 @@
                         </div>
                     </div>
                     <ul class="visible transition duration-300 opacity-100 bg-white dark:bg-gray-800 shadow rounded mt-2 w-48 py-1 absolute">
-                        <li class="cursor-pointer text-gray-600 dark:text-gray-400 dark:hover:bg-gray-700 text-sm leading-3 tracking-normal py-3 hover:bg-gray-100 px-3 font-normal">Interface Settings</li>
-                        <li class="cursor-pointer text-gray-600 dark:text-gray-400 dark:hover:bg-gray-700 text-sm leading-3 tracking-normal py-3 hover:bg-gray-100 px-3 font-normal">Notifications</li>
-                        <li class="cursor-pointer text-gray-600 dark:text-gray-400 dark:hover:bg-gray-700 text-sm leading-3 tracking-normal py-3 hover:bg-gray-100 px-3 font-normal">Account Data</li>
-                        <li class="cursor-pointer text-gray-600 dark:text-gray-400 dark:hover:bg-gray-700 text-sm leading-3 tracking-normal py-3 hover:bg-gray-100 px-3 font-normal">Sign Out</li>
+                        <li class="cursor-pointer text-gray-600 dark:text-gray-400 dark:hover:bg-gray-700 text-sm leading-3 tracking-normal py-3 hover:bg-gray-100 px-3 font-normal">Help  Center</li>
+                        <li class="cursor-pointer text-gray-600 dark:text-gray-400 dark:hover:bg-gray-700 text-sm leading-3 tracking-normal py-3 hover:bg-gray-100 px-3 font-normal">Blog</li>
+                        <li class="cursor-pointer text-gray-600 dark:text-gray-400 dark:hover:bg-gray-700 text-sm leading-3 tracking-normal py-3 hover:bg-gray-100 px-3 font-normal">How It works</li>
+                        <li class="cursor-pointer text-gray-600 dark:text-gray-400 dark:hover:bg-gray-700 text-sm leading-3 tracking-normal py-3 hover:bg-gray-100 px-3 font-normal">Developers</li>
                     </ul>
                 </div>
                 <!-- Code block ends -->

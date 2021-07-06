@@ -208,10 +208,10 @@ export default {
 </script>
 <style scoped>
 .paragraph {
-  color: #FFFFFF;
+  color: #0c0e2d;
 }
 .bg-explore {
-  background-color: #1EB864;
+  background-color: #f2f5fa;
 }
 </style>
 
