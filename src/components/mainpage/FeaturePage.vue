@@ -1,19 +1,30 @@
 <template>
   <section class="body-font">
-    <div class="md:py-12 py-24">
-      <h1 class="text-3xl font-bold title-font text-black text-center">
-        Our Features
-      </h1>
+    <div class="container px-5 py-24 mx-auto">
+      <div class="text-center">
+        <h1
+          class="sm:text-3xl text-2xl font-bold title-font text-gray-900 mb-4"
+        >
+          Our Unique Features
+        </h1>
+        <p
+          class="
+            text-base
+            leading-relaxed
+            xl:w-2/4
+            lg:w-3/4
+            mx-auto
+            text-gray-500
+          "
+        >
+          Blue bottle crucifix vinyl post-ironic four dollar toast vegan
+          taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi
+          pug.
+        </p>
 
+      </div>
       <div
-        class="
-          container
-          px-3
-          mx-auto
-          flex flex-wrap flex-col
-          md:flex-row
-          items-center
-        "
+        class="px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center"
       >
         <!--Left Col-->
         <div
@@ -31,7 +42,7 @@
           "
         >
           <p class="text-md font-bold uppercase paragraph">
-            <span class="px-3">01.</span> Time
+            <span class="px-3 bg-num">01.</span> Time
           </p>
           <h1 class="my-4 text-4xl font-bold leading-tight">
             Time Measurement
@@ -69,7 +80,7 @@
       </div>
     </div>
 
-    <div class="md:py-12 py-12">
+    <div class="md:py-4 py-12">
       <div
         class="
           container
@@ -104,7 +115,7 @@
           "
         >
           <p class="text-md font-bold uppercase paragraph">
-            <span class="px-3">02.</span> Progress
+            <span class="px-3 bg-num">02.</span> Progress
           </p>
           <h1 class="my-4 text-4xl font-bold leading-tight">Track Progress</h1>
           <p class="leading-relaxed">
@@ -132,7 +143,7 @@
         </div>
       </div>
     </div>
-    <div class="md:py-12 py-12">
+    <div class="md:py-4 py-12">
       <div
         class="
           container
@@ -160,7 +171,7 @@
           "
         >
           <p class="text-md font-bold uppercase paragraph">
-            <span class="px-3">03.</span> History
+            <span class="px-3 bg-num">03.</span> History
           </p>
           <h1 class="my-4 text-4xl font-bold leading-tight">
             Learning from history
@@ -212,6 +223,11 @@ export default {
 }
 .bg-explore {
   background-color: #f2f5fa;
+}
+.bg-num {
+  background-color: #0c0e2d;
+  border-radius: 40px;
+  color: #f2f5fa;
 }
 </style>
 

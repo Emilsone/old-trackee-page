@@ -84,7 +84,7 @@
                 px-4
               "
               href="#"
-              ><DropDownMenu  /></a
+              ><FeatureMenu  /></a
             >
           </li>
           <li class="mr-3">
@@ -146,7 +146,7 @@
 
 <script>
 import Logo from "@/components/mainpage/Logo";
-import DropDownMenu from "@/components/mainpage/DropDownMenu";
+import FeatureMenu from "@/components/mainpage/FeatureMenu";
 
 // import database from "../services/database";
 
@@ -154,7 +154,7 @@ export default {
   name: "NavBar",
   components: {
     logo: Logo,
-    DropDownMenu,
+  FeatureMenu,
   },
   data() {
     return {
@@ -212,6 +212,6 @@ export default {
 <style>
 .btn-sign {
   background-color: #0c0e2d;
-  border-radius: 8px;
+  border-radius: 4px;
 }
 </style>
