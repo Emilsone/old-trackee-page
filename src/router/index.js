@@ -5,6 +5,7 @@ import Dashboard from "../views/Dashboard.vue";
 import Home from "../views/Home.vue";
 import Register from "../views/Register";
 import Login from "../views/Login";
+import WaitlistPage from "../views/WaitlistPage";
 // import overview from "../views/overview.vue";
 
 
@@ -21,24 +22,30 @@ const routes = [{
     component: Register,
     meta: { guest: true },
 },
-    {
-        path: "/dashboard",
-        name: "Dashboard",
-        component: Dashboard,
-        meta: { guest: true },
-    },
+{
+    path: "/dashboard",
+    name: "Dashboard",
+    component: Dashboard,
+    meta: { guest: true },
+},
 {
     path: "/login",
     name: "Login",
     component: Login,
     meta: { guest: true },
 },
-// {
-//     path: "/overview",
-//     name: "overview",
-//     component: overview,
-//     meta: { guest: true },
-// },
+{
+    path: "/waitlistpage",
+    name: "WaitlistPage",
+    component: WaitlistPage,
+    // meta: { guest: true },
+},
+    // {
+    //     path: "/overview",
+    //     name: "overview",
+    //     component: overview,
+    //     meta: { guest: true },
+    // },
 ];
 
 // router.beforeEach((to, from, next) => {

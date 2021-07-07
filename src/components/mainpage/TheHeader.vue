@@ -69,7 +69,7 @@
                 px-4
               "
               href="#"
-              ><router-link to="/">Features</router-link></a
+              ><router-link to="/waitlistpage">Features </router-link></a
             >
           </li>
            
@@ -84,7 +84,7 @@
                 px-4
               "
               href="#"
-              ><FeatureMenu  /></a
+              ><ResourceMenu  /></a
             >
           </li>
           <li class="mr-3">
@@ -146,15 +146,15 @@
 
 <script>
 import Logo from "@/components/mainpage/Logo";
-import FeatureMenu from "@/components/mainpage/FeatureMenu";
-
+// import FeatureMenu from "@/components/mainpage/FeatureMenu";
+import ResourceMenu from "@/components/mainpage/ResourceMenu";
 // import database from "../services/database";
 
 export default {
   name: "NavBar",
   components: {
     logo: Logo,
-  FeatureMenu,
+  ResourceMenu,
   },
   data() {
     return {
