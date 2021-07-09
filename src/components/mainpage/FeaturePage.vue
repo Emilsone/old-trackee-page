@@ -224,6 +224,7 @@ export default {
 .bg-explore {
   /* background-color: #f2f5fa; */
    background-color: #0c0e2d;
+    color: #FFFFFF;
 }
 .bg-num {
   background-color: #0c0e2d;
