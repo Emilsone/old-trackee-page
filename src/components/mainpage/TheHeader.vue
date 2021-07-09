@@ -69,7 +69,7 @@
                 px-4
               "
               href="#"
-              ><router-link to="/">Features </router-link></a
+              ><router-link to="/waitlistpage">Features </router-link></a
             >
           </li>
            
