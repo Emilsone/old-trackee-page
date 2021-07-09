@@ -53,7 +53,7 @@
           </p>
           <p class="py-4">
             <a class="paragraph inline-flex items-center bg-explore py-4 px-8"
-              >Explore More
+              >Explore More Features
               <svg
                 class="w-4 h-4 ml-2"
                 viewBox="0 0 24 24"
@@ -125,7 +125,7 @@
           </p>
           <p class="py-4">
             <a class="paragraph inline-flex items-center bg-explore py-4 px-8"
-              >Explore More
+              >Explore Features
               <svg
                 class="w-4 h-4 ml-2"
                 viewBox="0 0 24 24"
@@ -183,7 +183,7 @@
 
           <p class="py-4">
             <a class="paragraph inline-flex items-center bg-explore py-4 px-8"
-              >Explore More
+              >Explore More Features
               <svg
                 class="w-4 h-4 ml-2"
                 viewBox="0 0 24 24"
@@ -222,7 +222,8 @@ export default {
   color: #0c0e2d;
 }
 .bg-explore {
-  background-color: #f2f5fa;
+  /* background-color: #f2f5fa; */
+   background-color: #0c0e2d;
 }
 .bg-num {
   background-color: #0c0e2d;
