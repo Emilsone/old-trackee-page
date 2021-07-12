@@ -141,6 +141,10 @@
                 </svg>
               </span>
             </div>
+
+             <p class="text-sm text-black py-2">
+            By signing up you agree to our Terms of Service and Privacy Policy
+          </p>
             <!-- component -->
             <div
               class="
