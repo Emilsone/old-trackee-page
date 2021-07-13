@@ -1,7 +1,6 @@
 <template>
   <section class="">
     <div class="">
-     
       <div
         class="
           container
@@ -37,41 +36,44 @@
           <p class="text-md font-bold task-text px-6 py-3 uppercase">
             100% Trusted plartform ✔
           </p>
-          <h1 class="my-4 text-5xl font-bold leading-tight">
-            Unlock the Power of Team work
+          <h1 class="my-4 text-5xl font-bold leading-tight capitalize">
+            Best tool for your team to work  <span class="hero-span">efficiently</span> 
           </h1>
           <p class="leading-normal text-lg mb-4 py-2">
             Trackee is a task management tool that allows teams to easily
             measure the progress and time spent on given task, To help them make
             the most of their effort.
           </p>
-          <div
-            class="
-              flex
-              w-full
-              md:justify-start
-              justify-center
-              items-end items-center
-              flex-wrap
-              sm:m-4
-            "
-          >
-            <a
+
+    
+
+          <div class="flex w-full md:justify-start justify-center items-center">
+            <input
+              type="email"
               class="
-                inline-block
-                text-white
-                shadow-2xl
-                btn-sign
-                px-10
-                no-underline
-                hover:text-underline
-                py-3
+                md:w-4/5
+                w-full
+                px-2
+                py-4
+                mr-2
+                bg-gray-100
+                shadow-inner
+                border border-gray-400
+                focus:outline-none
               "
-              href="#"
-              ><router-link to="/register"> Start Free Trial </router-link></a
+              placeholder="jane@example.com"
+              required
+            />
+            <button
+              class="btn-bg text-gray-200 px-5 py-4  shadow"
+              style="margin-left: -7.3rem"
             >
-            <p>No credit card required</p>
+              Notify Me
+            </button>
           </div>
+          <p class="leading-7 text-md text-gray-600 py-2">
+            👌 Notify me when the App is launched 👌
+          </p>
         </div>
       </div>
     </div>
@@ -84,9 +86,9 @@ export default {
 };
 </script>
 <style scoped>
-.btn-start {
+.btn-bg {
   background: #0c0e2d;
-  border-radius: 8px;
+  /* border-radius: 8px; */
 }
 .hero-text,
 .task-text,
@@ -96,6 +98,7 @@ p {
 .task-text {
   border: 2px solid gray;
 }
+
 </style>
 
 
