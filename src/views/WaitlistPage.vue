@@ -40,9 +40,9 @@
             Best tool for your team to work  <span class="hero-span">efficiently</span> 
           </h1>
           <p class="leading-normal text-lg mb-4 py-2">
-            Trackee is a task management tool that allows teams to easily
-            measure the progress and time spent on given task, To help them make
-            the most of their effort.
+           Rememeber projects management is the work of leading the team to acheive goals
+
+
           </p>
 
     
