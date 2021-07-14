@@ -14,12 +14,10 @@
             xl:w-2/4
             lg:w-3/4
             mx-auto
-            text-gray-500
+            text-gray-800
           "
         >
-          Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-          taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi
-          pug.
+            We also offer team building activities that are designed to enhance your teams communication and also build freindships.
         </p>
 
       </div>
