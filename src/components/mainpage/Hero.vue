@@ -17,7 +17,7 @@
           <p class="leading-normal text-lg mb-4 py-2">
             Trackee is a task management tool that allows teams to easily
             measure the progress and time spent on given task, To help them make
-            the most of their effort.
+            most of their effort.
           </p>
           <div class="flex w-full md:justify-start justify-center items-end items-center flex-wrap sm:m-4">
             <a
