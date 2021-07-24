@@ -18,7 +18,7 @@
           <div
             class="
               flex flex-col
-              items-center
+              items-center 
               justify-center
               space-y-8
               lg:-mx-4
