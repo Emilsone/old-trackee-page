@@ -6,6 +6,7 @@ import Home from "../views/Home.vue";
 import Register from "../views/Register";
 import Login from "../views/Login";
 import WaitlistPage from "../views/WaitlistPage";
+import PricingContent from "../views/PricingContent";
 // import overview from "../views/overview.vue";
 
 
@@ -22,6 +23,12 @@ const routes = [{
     component: Register,
     meta: { guest: true },
 },
+    {
+        path: "/pricingcontent",
+        name: "PricingContent",
+        component: PricingContent,
+        meta: { guest: true },
+    },
 {
     path: "/dashboard",
     name: "Dashboard",
