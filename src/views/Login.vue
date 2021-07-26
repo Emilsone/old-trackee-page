@@ -3,24 +3,25 @@
   <div class="h-scrren bg-white">
     <div class="w-full flex flex-wrap">
       <!-- Login Section -->
-      <div class="w-full md:w-1/2 mx-auto">
+      <div class="w-full md:w-1/2 mx-auto my-auto">
         <div
-          class="flex flex-col justify-center md:justify-start my-auto pt-8 md:pt-0 px-8 md:px-24 lg:px-32"
+          class="
+            flex flex-col
+            justify-center
+            items-center
+            flex-end
+            pt-8
+            md:pt-0
+            px-8
+            md:px-24
+            lg:px-32
+          "
         >
           <form class="flex flex-col pt-3 md:pt-8" @submit.prevent="signIn">
-            <div class="flex flex-col pt-4">
-              <label for="email" class="text-lg">Username</label>
-              <input
-                v-model="form.name"
-                type="text"
-                name=""
-                id=""
-                placeholder="Username"
-                class="border border-gray-500 p-2"
-                required
-                autocomplete="password"
-              />
-            </div>
+            <h1 class="text-2xl capitalize font-bold">
+              Get started with our free plan
+            </h1>
+
             <div class="flex flex-col pt-4">
               <label for="email" class="text-lg">Email</label>
               <input
@@ -28,26 +29,13 @@
                 type="text"
                 name=""
                 id=""
-                placeholder="your@gmail.com"
+                placeholder="name@company.com"
                 class="border border-gray-500 p-2"
                 required
                 autocomplete=""
               />
             </div>
 
-            <div class="flex flex-col pt-4">
-              <label for="password" class="text-lg">Password</label>
-              <input
-                v-model="form.password"
-                type="text"
-                name=""
-                id=""
-                placeholder="Your Password"
-                class="border border-gray-500 p-2"
-                required
-                autocomplete=""
-              />
-            </div>
             <div class="flex items-baseline space-x-2 mt-2">
               <input
                 type="checkbox"
@@ -56,53 +44,34 @@
                 class="inline-block"
                 required
               />
-              <p class="text-gray-600 text-md py-2">Remember Me My Password</p>
+              <p class="text-gray-600 text-sm py-2">
+                By signing up you agree to our Terms of Service and Privacy
+                Policy
+              </p>
             </div>
-            <div
-              class="flex flex-wrap align-center justify-between lg:space-x-5 py-3"
-            >
+
+            <div class="py-3">
               <button
                 type="submit"
-                class="bg-black text-white d text-lg p-2 px-8"
+                class="btn-bg text-white d text-lg p-2 px-8"
               >
                 Sign In
               </button>
-              <!-- <div class=""> -->
-              <p class="py-3 md:pt-4">
-                <router-link
-                  to="/register"
-                  class="underline font-semibold py-3 md:py-6"
-                  >DON'T HAVE AN ACCOUNT?</router-link
-                >
-              </p>
-              <!-- </div> -->
-            </div>
-            <div class="lg:p-4 text-center flex space-x-4 py-3">
-              <h1>Sign In With</h1>
-
-              <svg class="h-6 w-6" viewBox="0 0 40 40">
-                <path
-                  d="M36.3425 16.7358H35V16.6667H20V23.3333H29.4192C28.045 27.2142 24.3525 30 20 30C14.4775 30 10 25.5225 10 20C10 14.4775 14.4775 9.99999 20 9.99999C22.5492 9.99999 24.8683 10.9617 26.6342 12.5325L31.3483 7.81833C28.3717 5.04416 24.39 3.33333 20 3.33333C10.7958 3.33333 3.33335 10.7958 3.33335 20C3.33335 29.2042 10.7958 36.6667 20 36.6667C29.2042 36.6667 36.6667 29.2042 36.6667 20C36.6667 18.8825 36.5517 17.7917 36.3425 16.7358Z"
-                  fill="#FFC107"
-                />
-                <path
-                  d="M5.25497 12.2425L10.7308 16.2583C12.2125 12.59 15.8008 9.99999 20 9.99999C22.5491 9.99999 24.8683 10.9617 26.6341 12.5325L31.3483 7.81833C28.3716 5.04416 24.39 3.33333 20 3.33333C13.5983 3.33333 8.04663 6.94749 5.25497 12.2425Z"
-                  fill="#FF3D00"
-                />
-                <path
-                  d="M20 36.6667C24.305 36.6667 28.2167 35.0192 31.1742 32.34L26.0159 27.975C24.3425 29.2425 22.2625 30 20 30C15.665 30 11.9842 27.2359 10.5975 23.3784L5.16254 27.5659C7.92087 32.9634 13.5225 36.6667 20 36.6667Z"
-                  fill="#4CAF50"
-                />
-                <path
-                  d="M36.3425 16.7358H35V16.6667H20V23.3333H29.4192C28.7592 25.1975 27.56 26.805 26.0133 27.9758C26.0142 27.975 26.015 27.975 26.0158 27.9742L31.1742 32.3392C30.8092 32.6708 36.6667 28.3333 36.6667 20C36.6667 18.8825 36.5517 17.7917 36.3425 16.7358Z"
-                  fill="#1976D2"
-                />
-              </svg>
             </div>
 
             <!-- Error====section -->
             <div
-              class="bg-red-light border border-red-light text-red-dark pl-4 pr-8 py-3 rounded relative my-3"
+              class="
+                bg-red-light
+                border border-red-light
+                text-red-dark
+                pl-4
+                pr-8
+                py-3
+                rounded
+                relative
+                my-3
+              "
               role="alert"
               v-if="error"
             >
@@ -127,17 +96,204 @@
       </div>
 
       <!-- Image Section -->
-      <div class="w-1/2 shadow-2xl login-bg">
-        <img class="object-cover w-full h-screen hidden md:block" src="" />
+      <div class="w-1/2 shadow-2xl form-bg">
+        <div class="object-cover w-full h-screen hidden md:block">
+          <div class="max-w-3xl flex h-full m-4 md:m-6">
+            <div class="flex flex-col w-full">
+
+              <div class="md:pr-10 md:py-2">
+                <div class="flex relative pb-12">
+                  <div
+                    class="
+                      h-full
+                      w-10
+                      absolute
+                      inset-0
+                      flex
+                      items-center
+                      justify-center
+                    "
+                  >
+                    <div
+                      class="h-full w-1 bg-gray-200 pointer-events-none"
+                    ></div>
+                  </div>
+                  <div
+                    class="
+                      flex-shrink-0
+                      w-10
+                      h-10
+                      rounded-full
+                     btn-bg
+                      inline-flex
+                      items-center
+                      justify-center
+                      text-white
+                      relative
+                      z-10
+                    "
+                  >
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      class="w-5 h-5"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="flex-grow pl-4">
+                    <h2
+                      class="
+                        font-medium
+                        title-font
+                        text-sm text-gray-900
+                        mb-1
+                        tracking-wider
+                      "
+                    >
+                      STEP 1
+                    </h2>
+                    <p class="leading-relaxed">
+                    Create an account
+                    </p>
+                  </div>
+                </div>
+                <div class="flex relative pb-12">
+                  <div
+                    class="
+                      h-full
+                      w-10
+                      absolute
+                      inset-0
+                      flex
+                      items-center
+                      justify-center
+                    "
+                  >
+                    <div
+                      class="h-full w-1 bg-gray-200 pointer-events-none"
+                    ></div>
+                  </div>
+                  <div
+                    class="
+                      flex-shrink-0
+                      w-10
+                      h-10
+                      rounded-full
+                     btn-bg
+                      inline-flex
+                      items-center
+                      justify-center
+                      text-white
+                      relative
+                      z-10
+                    "
+                  >
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      class="w-5 h-5"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                    </svg>
+                  </div>
+                  <div class="flex-grow pl-4">
+                    <h2
+                      class="
+                        font-medium
+                        title-font
+                        text-sm text-gray-900
+                        mb-1
+                        tracking-wider
+                      "
+                    >
+                      STEP 2
+                    </h2>
+                    <p class="leading-relaxed">
+                     Invite team members into the application
+                    </p>
+                  </div>
+                </div>
+                <div class="flex relative pb-12">
+                  <div
+                    class="
+                      h-full
+                      w-10
+                      absolute
+                      inset-0
+                      flex
+                      items-center
+                      justify-center
+                    "
+                  ></div>
+                  <div
+                    class="
+                      flex-shrink-0
+                      w-10
+                      h-10
+                      rounded-full
+                     btn-bg
+                      inline-flex
+                      items-center
+                      justify-center
+                      text-white
+                      relative
+                      z-10
+                    "
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
+                      />
+                    </svg>
+                  </div>
+                  <div class="flex-grow pl-4">
+                    <h2
+                      class="
+                        font-medium
+                        title-font
+                        text-sm text-gray-900
+                        mb-1
+                        tracking-wider
+                      "
+                    >
+                      STEP 3
+                    </h2>
+                    <p class="leading-relaxed">
+                     Get verified and start managing your team members
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <img class="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12 mx-auto" src="../assets/login-bro.png" alt="step">
+
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
-
-
-    
-  
 
 <script>
 // import { mapActions } from "vuex";
@@ -154,7 +310,6 @@ export default {
         password: "",
       },
       error: "",
-      
     };
   },
   // methods: {
@@ -171,6 +326,13 @@ export default {
 </script>
 
 <style scoped>
+.form-bg {
+  background-color: #f9f9f9;
+}
+.btn-bg {
+  background: #0c0e2d;
+  /* border-radius: 8px; */
+}
 * {
   box-sizing: border-box;
 }
@@ -178,6 +340,4 @@ export default {
 #error {
   color: red;
 }
-
-
 </style>
