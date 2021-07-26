@@ -626,7 +626,7 @@
 import PricingCategory from "@/components/mainpage/PricingCategory.vue";
 import PricingList from "@/components/mainpage/PricingList.vue";
 export default {
-  name: "PricingPage",
+  name: "PricingContent",
   components: {
     PricingCategory,
     PricingList,

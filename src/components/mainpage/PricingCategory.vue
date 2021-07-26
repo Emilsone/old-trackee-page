@@ -29,7 +29,7 @@
             text-gray-800 text-black
             bg-year
           "
-          :class="{ active: tabAtiveIndex == 1 }"
+          :class="{ active: tabActiveIndex == 1 }"
           @click="changeTab(1)"
         >
           Yearly
@@ -43,13 +43,13 @@ export default {
   name: "PricingCategory",
   data() {
     return {
-      tabAtiveIndex: 0,
+      tabActiveIndex: 0,
     };
   },
   methods: {
     changeTab(val) {
-      this.tabAtiveIndex = val;
-      this.$emit("tabchange", this.tabAtiveIndex);
+      this.tabActiveIndex = val;
+      this.$emit("tabchange", this.tabActiveIndex);
     },
   },
 };
