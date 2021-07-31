@@ -220,7 +220,7 @@
                       STEP 2
                     </h2>
                     <p class="leading-relaxed">
-                     Invite team members into the application
+                      Get verified and Invite team members into the application
                     </p>
                   </div>
                 </div>
@@ -279,7 +279,7 @@
                       STEP 3
                     </h2>
                     <p class="leading-relaxed">
-                     Get verified and start managing your team members
+                     start managing your team members
                     </p>
                   </div>
                 </div>
