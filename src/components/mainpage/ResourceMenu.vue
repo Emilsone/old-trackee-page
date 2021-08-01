@@ -66,7 +66,7 @@
       <a
         href="#"
         class="
-          block
+         
           px-4
           py-2
           text-sm text-gray-700
@@ -78,7 +78,7 @@
           hover:bg-blue-500
           hover:text-white
           dark:hover:text-white
-          inline-flex
+          inline-block
         "
       >
       <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -89,7 +89,7 @@
       <a
         href="#"
         class="
-          block
+          
           px-4
           py-2
           text-sm text-gray-700
@@ -101,7 +101,7 @@
           hover:bg-blue-500
           hover:text-white
           dark:hover:text-white
-          inline-flex
+          inline-block
           space-x-4
         "
       >
@@ -113,7 +113,7 @@
       <a
         href="#"
         class="
-          block
+        
           px-4
           py-2
           text-sm text-gray-700
@@ -125,7 +125,7 @@
           hover:bg-blue-500
           hover:text-white
           dark:hover:text-white
-          inline-flex
+          inline-block
         "
       >
       <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
