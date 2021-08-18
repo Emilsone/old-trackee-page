@@ -51,7 +51,7 @@
           </p>
           <p class="py-4">
             <a class="paragraph inline-flex items-center bg-explore py-4 px-8"
-              >Explore More Features
+              >ExploFeatures
               <svg
                 class="w-4 h-4 ml-2"
                 viewBox="0 0 24 24"
@@ -181,7 +181,7 @@
 
           <p class="py-4">
             <a class="paragraph inline-flex items-center bg-explore py-4 px-8"
-              >Explore More Features
+              >Explore Features
               <svg
                 class="w-4 h-4 ml-2"
                 viewBox="0 0 24 24"
