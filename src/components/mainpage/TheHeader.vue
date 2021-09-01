@@ -132,7 +132,7 @@
                   md:mx-6
                 "
                 href="#"
-                ><router-link to="/register"> Start Free Trial </router-link></a
+                ><router-link to="/login"> Start Free Trial </router-link></a
               >
             </li>
           </template>
