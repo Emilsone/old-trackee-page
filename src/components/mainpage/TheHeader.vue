@@ -84,7 +84,7 @@
                 px-4
               "
               href="#"
-              ><ResourceMenu  /></a
+              ><ResourceMenu  />Resources</a
             >
           </li>
           <li class="mr-3">
@@ -184,10 +184,7 @@ export default {
     },
   },
   methods: {
-    // async logOut() {
-    //   await database.logOut();
-    //   this.$router.push("/");
-    // },
+   
     onClick() {
       this.isOpen = false;
     },
