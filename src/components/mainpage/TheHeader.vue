@@ -98,7 +98,7 @@
                 px-4
               "
               href="#"
-              ><router-link to="/">Pricing </router-link></a
+              ><router-link to="/pricingcontent">Pricing </router-link></a
             >
           </li>
           <li class="mr-3">
