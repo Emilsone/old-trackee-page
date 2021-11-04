@@ -1,9 +1,10 @@
 <template>
   <main>
+    <TheHeader />
     <div class="bg-white">
       <div class="container px-6 py-8 mx-auto">
         <div>
-           <h1 class="my-4 text-2xl font-bold leading-tight text-center capitalize">
+           <h1 class="my-24 text-2xl font-bold leading-tight text-center capitalize">
            Our great pricing plan that suites all sizes of bussiness
           </h1>
         </div>
@@ -620,18 +621,23 @@
       </div>
       <PricingTable />
     </div>
+    <TheFooter />
   </main>
 </template>
 <script>
+import TheHeader from "@/components/mainpage/TheHeader.vue";
 import PricingCategory from "@/components/mainpage/PricingCategory.vue";
 import PricingList from "@/components/mainpage/PricingList.vue";
 import PricingTable from "@/components/mainpage/PricingTable.vue";
+import TheFooter from "@/components/mainpage/TheFooter.vue";
 export default {
   name: "PricingContent",
   components: {
+    TheHeader,
     PricingCategory,
     PricingList,
-    PricingTable
+    PricingTable,
+    TheFooter
   },
   data() {
     return {
