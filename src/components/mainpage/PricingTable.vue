@@ -78,7 +78,7 @@
                     text-left
                   "
                 >
-                  Page name
+                  Plans
                 </th>
                 <th
                   class="
@@ -96,7 +96,25 @@
                     text-left
                   "
                 >
-                  Visitors
+                 Casual
+                </th>
+                <th
+                  class=" 
+                    px-6
+                    bg-blueGray-50
+                    text-blueGray-500
+                    align-middle
+                    border border-solid border-blueGray-100
+                    py-3
+                    text-xs
+                    uppercase
+                    border-l-0 border-r-0
+                    whitespace-nowrap
+                    font-semibold
+                    text-left
+                  "
+                >
+                Professional
                 </th>
                 <th
                   class="
@@ -114,25 +132,7 @@
                     text-left
                   "
                 >
-                  Unique users
-                </th>
-                <th
-                  class="
-                    px-6
-                    bg-blueGray-50
-                    text-blueGray-500
-                    align-middle
-                    border border-solid border-blueGray-100
-                    py-3
-                    text-xs
-                    uppercase
-                    border-l-0 border-r-0
-                    whitespace-nowrap
-                    font-semibold
-                    text-left
-                  "
-                >
-                  Bounce rate
+                 Expert
                 </th>
               </tr>
             </thead>
@@ -151,7 +151,7 @@
                     text-left text-blueGray-700
                   "
                 >
-                  /argon/
+                 Unlimited Projects
                 </th>
                 <td
                   class="
@@ -164,7 +164,7 @@
                     p-4
                   "
                 >
-                  4,569
+                  
                 </td>
                 <td
                   class="
@@ -177,7 +177,7 @@
                     p-4
                   "
                 >
-                  340
+                 
                 </td>
                 <td
                   class="
@@ -190,64 +190,30 @@
                     p-4
                   "
                 >
-                  <i class="fas fa-arrow-up text-emerald-500 mr-4"></i>
-                  46,53%
-                </td>
-              </tr>
-              <tr>
-                <th
-                  class="
-                    border-t-0
-                    px-6
-                    align-middle
-                    border-l-0 border-r-0
-                    text-xs
-                    whitespace-nowrap
-                    p-4
-                    text-left text-blueGray-700
-                  "
-                >
-                  /argon/index.html
-                </th>
-                <td
-                  class="
-                    border-t-0
-                    px-6
-                    align-middle
-                    border-l-0 border-r-0
-                    text-xs
-                    whitespace-nowrap
-                    p-4
-                  "
-                >
-                  3,985
-                </td>
-                <td
-                  class="
-                    border-t-0
-                    px-6
-                    align-middle
-                    border-l-0 border-r-0
-                    text-xs
-                    whitespace-nowrap
-                    p-4
-                  "
-                >
-                  319
-                </td>
-                <td
-                  class="
-                    border-t-0
-                    px-6
-                    align-middle
-                    border-l-0 border-r-0
-                    text-xs
-                    whitespace-nowrap
-                    p-4
-                  "
-                >
-                  <i class="fas fa-arrow-down text-orange-500 mr-4"></i>
-                  46,53%
+                 <span
+                    class="
+                      heading-text
+                      w-4
+                      h-4
+                      mr-2
+                      rounded-full
+                      inline-flex
+                      items-center
+                      justify-center
+                    "
+                  >
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="3"
+                      class="w-3 h-3"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg> </span
+                  >
                 </td>
               </tr>
               <tr>
@@ -263,7 +229,7 @@
                     text-left text-blueGray-700
                   "
                 >
-                  /argon/charts.html
+                  Chat Support
                 </th>
                 <td
                   class="
@@ -276,7 +242,7 @@
                     p-4
                   "
                 >
-                  3,513
+               
                 </td>
                 <td
                   class="
@@ -289,7 +255,30 @@
                     p-4
                   "
                 >
-                  294
+                  <span
+                    class="
+                      heading-text
+                      w-4
+                      h-4
+                      mr-2
+                      rounded-full
+                      inline-flex
+                      items-center
+                      justify-center
+                    "
+                  >
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="3"
+                      class="w-3 h-3"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg> </span
+                  >
                 </td>
                 <td
                   class="
@@ -302,8 +291,30 @@
                     p-4
                   "
                 >
-                  <i class="fas fa-arrow-down text-orange-500 mr-4"></i>
-                  36,49%
+                 <span
+                    class="
+                      heading-text
+                      w-4
+                      h-4
+                      mr-2
+                      rounded-full
+                      inline-flex
+                      items-center
+                      justify-center
+                    "
+                  >
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="3"
+                      class="w-3 h-3"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg> </span
+                  >
                 </td>
               </tr>
               <tr>
@@ -319,7 +330,7 @@
                     text-left text-blueGray-700
                   "
                 >
-                  /argon/tables.html
+                  Without Ads
                 </th>
                 <td
                   class="
@@ -332,7 +343,7 @@
                     p-4
                   "
                 >
-                  2,050
+                  
                 </td>
                 <td
                   class="
@@ -345,7 +356,30 @@
                     p-4
                   "
                 >
-                  147
+                  <span
+                    class="
+                      heading-text
+                      w-4
+                      h-4
+                      mr-2
+                      rounded-full
+                      inline-flex
+                      items-center
+                      justify-center
+                    "
+                  >
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="3"
+                      class="w-3 h-3"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg> </span
+                  >
                 </td>
                 <td
                   class="
@@ -358,8 +392,30 @@
                     p-4
                   "
                 >
-                  <i class="fas fa-arrow-up text-emerald-500 mr-4"></i>
-                  50,87%
+                  <span
+                    class="
+                      heading-text
+                      w-4
+                      h-4
+                      mr-2
+                      rounded-full
+                      inline-flex
+                      items-center
+                      justify-center
+                    "
+                  >
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="3"
+                      class="w-3 h-3"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg> </span
+                  >
                 </td>
               </tr>
               <tr>
@@ -375,7 +431,7 @@
                     text-left text-blueGray-700
                   "
                 >
-                  /argon/profile.html
+                 24x7 Support
                 </th>
                 <td
                   class="
@@ -388,7 +444,7 @@
                     p-4
                   "
                 >
-                  1,795
+                 
                 </td>
                 <td
                   class="
@@ -401,7 +457,7 @@
                     p-4
                   "
                 >
-                  190
+               
                 </td>
                 <td
                   class="
@@ -414,8 +470,108 @@
                     p-4
                   "
                 >
-                  <i class="fas fa-arrow-down text-red-500 mr-4"></i>
-                  46,53%
+                <span
+                    class="
+                      heading-text
+                      w-4
+                      h-4
+                      mr-2
+                      rounded-full
+                      inline-flex
+                      items-center
+                      justify-center
+                    "
+                  >
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="3"
+                      class="w-3 h-3"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg> </span
+                  >
+                </td>
+              </tr>
+              <tr>
+                <th
+                  class="
+                    border-t-0
+                    px-6
+                    align-middle
+                    border-l-0 border-r-0
+                    text-xs
+                    whitespace-nowrap
+                    p-4
+                    text-left text-blueGray-700
+                  "
+                >
+                  Unlimited team members
+                </th>
+                <td
+                  class="
+                    border-t-0
+                    px-6
+                    align-middle
+                    border-l-0 border-r-0
+                    text-xs
+                    whitespace-nowrap
+                    p-4
+                  "
+                >
+                 
+                </td>
+                <td
+                  class="
+                    border-t-0
+                    px-6
+                    align-middle
+                    border-l-0 border-r-0
+                    text-xs
+                    whitespace-nowrap
+                    p-4
+                  "
+                >
+                  
+                </td>
+                <td
+                  class="
+                    border-t-0
+                    px-6
+                    align-middle
+                    border-l-0 border-r-0
+                    text-xs
+                    whitespace-nowrap
+                    p-4
+                  "
+                >
+                <span
+                    class="
+                      heading-text
+                      w-4
+                      h-4
+                      mr-2
+                      rounded-full
+                      inline-flex
+                      items-center
+                      justify-center
+                    "
+                  >
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="3"
+                      class="w-3 h-3"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg> </span
+                  >
                 </td>
               </tr>
             </tbody>

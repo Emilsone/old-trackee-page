@@ -189,7 +189,7 @@
             dark:bg-gray-700
           "
         >
-          Profesional
+           Professional
         </h2>
       </div>
       <div class="flex-shrink-0">
