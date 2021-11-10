@@ -4,8 +4,17 @@
     <div class="bg-white">
       <div class="container px-6 py-8 mx-auto">
         <div>
-           <h1 class="my-24 text-2xl font-bold leading-tight text-center capitalize">
-           Our great pricing plan that suites all sizes of bussiness
+          <h1
+            class="
+              my-24
+              text-5xl
+              font-bold
+              leading-tight
+              text-center
+              capitalize
+            "
+          >
+            Our flexible pricing plans <br class="bg-gray-600">for your business
           </h1>
         </div>
         <div class="sm:flex sm:items-center sm:justify-between">
@@ -637,7 +646,7 @@ export default {
     PricingCategory,
     PricingList,
     PricingTable,
-    TheFooter
+    TheFooter,
   },
   data() {
     return {
