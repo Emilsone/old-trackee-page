@@ -2,40 +2,66 @@
   <section class="hero___content">
     <div class="md:py-12 py-24">
       <div
-        class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center"
+        class="
+          container
+          px-3
+          mx-auto
+          flex flex-wrap flex-col
+          md:flex-row
+          items-center
+        "
       >
         <!--Left Col-->
         <div
-          class="flex flex-col w-full md:w-2/5 justify-center lg:items-start items-center text-center md:text-left hero-text"
+          class="
+            flex flex-col
+            w-full
+            md:w-2/5
+            justify-center
+            lg:items-start
+            items-center
+            text-center
+            md:text-left
+            hero-text
+          "
         >
           <p class="text-md font-bold task-text px-6 py-3 uppercase">
-           100% Trusted plartform ✔
+            100% Trusted plartform ✔
           </p>
           <h1 class="my-4 text-5xl font-bold leading-tight">
-            The Best Way to <span> Manage </span> Your Team work
+            The Best Tool to <span> Manage </span> Your Task
           </h1>
           <p class="leading-normal text-lg mb-4 py-2">
-            Trackee is a task management tool that allows teams to easily
-            measure the progress and time spent on given task, To help them make
-            most of their effort.
+            Trackee is a task management tool that allows you to easily measure
+            the progress and time spent on your task and keep them on track in a
+            fun and flexible way
           </p>
-          <div class="flex w-full md:justify-start justify-center items-end items-center flex-wrap sm:m-4">
+          <div
+            class="
+              flex
+              w-full
+              md:justify-start
+              justify-center
+              items-end items-center
+              flex-wrap
+              sm:m-4
+            "
+          >
             <a
-                class="
-                  inline-block
-                  text-white
-                  shadow-2xl
-                  btn-sign
-                  px-10
-                  no-underline
-                  hover:text-underline
-                  py-3
-                  
-                "
-                href="#"
-                ><router-link to="/register"> Start Free Trial </router-link></a
-              >
-              <p>No credit card required</p>
+              class="
+                inline-block
+                text-white
+                shadow-2xl
+                btn-sign
+                px-10
+                no-underline
+                hover:text-underline
+                py-3
+              "
+              href="#"
+              ><router-link to="/register"> Start Free Trial </router-link></a
+            >
+            <p>No credit card required</p>
           </div>
         </div>
         <!--Right Col-->
@@ -64,7 +90,7 @@ export default {
 .hero-text,
 .task-text,
 p {
-  color: #07080D;
+  color: #07080d;
 }
 .task-text {
   border: 2px solid gray;
