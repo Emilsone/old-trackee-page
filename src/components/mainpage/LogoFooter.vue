@@ -15,7 +15,7 @@
       >Trackee
     </a>
     <p class="text-md py-6">
-      Best tool for effective team<br />
+      Best tool for effective<br />
       collaboration, with a high performance results
     </p>
 

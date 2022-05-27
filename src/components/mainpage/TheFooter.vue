@@ -34,7 +34,7 @@
           <p class="uppercase md:mb-6 font-bold">Features</p>
           <ul class="list-reset mb-6">
             <li class="mt-2 block mr-2 md:block md:mr-0 py-2">
-              <a href="#" class="no-underline">Team Management </a>
+              <a href="#" class="no-underline">Task Management </a>
             </li>
             <li class="mt-2 mr-2 md:block md:mr-0 py-2">
               <a href="#" class="no-underline">Time Schedule</a>
