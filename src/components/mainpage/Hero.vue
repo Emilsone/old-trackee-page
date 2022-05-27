@@ -12,12 +12,10 @@
            100% Trusted plartform ✔
           </p>
           <h1 class="my-4 text-5xl font-bold leading-tight">
-            The Best Way to <span> Manage </span> Your Team work
+            The Best Tool to <span> Manage </span> your Task
           </h1>
           <p class="leading-normal text-lg mb-4 py-2">
-            Trackee is a task management tool that allows teams to easily
-            measure the progress and time spent on given task, To help them make
-            most of their effort.
+            Trackee is a task management tool that allows you to easily measure the progress and time spent on your task and keep them on track in a fun and flexible way
           </p>
           <div class="flex w-full md:justify-start justify-center items-end items-center flex-wrap sm:m-4">
             <a
