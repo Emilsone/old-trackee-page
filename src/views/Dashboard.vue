@@ -3,11 +3,11 @@
     <SideBar />
 
     <div class="flex-1 flex flex-col overflow-hidden">
-      <NavLink />
+      <!-- <NavLink /> -->
 
       <main class="flex-1 overflow-x-hidden overflow-y-auto bg-back">
         <div class="container mx-auto px-6 py-8">
-          <overview />
+          <!-- <overview /> -->
         </div>
       </main>
     </div>
@@ -15,12 +15,12 @@
 </template>
 
 <script>
-import NavLink from "@/components/NavLink.vue";
+// import NavLink from "@/components/NavLink.vue";
 import SideBar from "@/components/sidebar/SideBar.vue";
-import overview from "@/components/overview.vue";
+// import overview from "@/components/overview.vue";
 export default {
   name: "Dashboard",
-  components: { SideBar, NavLink, overview },
+  components: { SideBar,  },
 };
 </script>
 

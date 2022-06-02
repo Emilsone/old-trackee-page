@@ -84,7 +84,7 @@
                 px-4
               "
               href="#"
-              ><ResourceMenu  /></a
+              >Resources</a
             >
           </li>
           <li class="mr-3">
@@ -98,7 +98,7 @@
                 px-4
               "
               href="#"
-              ><router-link to="/">Pricing </router-link></a
+              ><router-link to="/">Blog </router-link></a
             >
           </li>
           <li class="mr-3">
@@ -147,14 +147,11 @@
 <script>
 import Logo from "@/components/mainpage/Logo";
 // import FeatureMenu from "@/components/mainpage/FeatureMenu";
-import ResourceMenu from "@/components/mainpage/ResourceMenu";
-// import database from "../services/database";
 
 export default {
   name: "NavBar",
   components: {
     logo: Logo,
-  ResourceMenu,
   },
   data() {
     return {
