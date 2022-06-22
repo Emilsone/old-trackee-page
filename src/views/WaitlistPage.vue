@@ -37,15 +37,13 @@
             100% Trusted plartform ✔
           </p>
           <h1 class="my-4 text-5xl font-bold leading-tight capitalize">
-            Best tool for your team to work  <span class="hero-span">efficiently</span> 
+            Best tool for your team to work
+            <span class="hero-span">efficiently</span>
           </h1>
           <p class="leading-normal text-lg mb-4 py-2">
-           Rememeber projects management is the work of leading the team to acheive goals
-
-
+            Rememeber projects management is the work of leading the team to
+            acheive goals
           </p>
-
-    
 
           <div class="flex w-full md:justify-start justify-center items-center">
             <input
@@ -65,7 +63,7 @@
               required
             />
             <button
-              class="btn-bg text-gray-200 px-5 py-4  shadow"
+              class="btn-bg text-gray-200 px-5 py-4 shadow"
               style="margin-left: -7.3rem"
             >
               Notify Me
@@ -98,8 +96,4 @@ p {
 .task-text {
   border: 2px solid gray;
 }
-
 </style>
-
-
-		

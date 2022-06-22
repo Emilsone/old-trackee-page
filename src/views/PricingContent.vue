@@ -1,7 +1,22 @@
 <template>
   <main>
+    <TheHeader />
     <div class="bg-white">
       <div class="container px-6 py-8 mx-auto">
+        <div>
+          <h1
+            class="
+              my-24
+              text-5xl
+              font-bold
+              leading-tight
+              text-center
+              capitalize
+            "
+          >
+            Our flexible pricing plans <br class="bg-gray-600">for your business
+          </h1>
+        </div>
         <div class="sm:flex sm:items-center sm:justify-between">
           <div class="py-6">
             <p class="mt-4 text-gray-500 dark:text-gray-400 uppercase">
@@ -18,13 +33,10 @@
           <div
             class="
               flex flex-col
-              items-center 
+              items-center
               justify-center
               space-y-8
-              lg:-mx-4
-              lg:flex-row
-              lg:items-stretch
-              lg:space-y-0
+              lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0
             "
           >
             <div
@@ -37,8 +49,7 @@
                 bg-white
                 border-2 border-gray-200
                 lg:mx-4
-                dark:bg-gray-800
-                dark:border-gray-700
+                dark:bg-gray-800 dark:border-gray-700
               "
             >
               <div class="flex-shrink-0">
@@ -186,8 +197,7 @@
                 bg-white
                 border-2 border-gray-200
                 lg:mx-4
-                dark:bg-gray-800
-                dark:border-gray-700
+                dark:bg-gray-800 dark:border-gray-700
               "
             >
               <div class="flex-shrink-0">
@@ -392,8 +402,7 @@
                 bg-white
                 border-2 border-gray-200
                 lg:mx-4
-                dark:bg-gray-800
-                dark:border-gray-700
+                dark:bg-gray-800 dark:border-gray-700
               "
             >
               <div class="flex-shrink-0">
@@ -619,17 +628,25 @@
           <PricingList />
         </div>
       </div>
+      <PricingTable />
     </div>
+    <TheFooter />
   </main>
 </template>
 <script>
+import TheHeader from "@/components/mainpage/TheHeader.vue";
 import PricingCategory from "@/components/mainpage/PricingCategory.vue";
 import PricingList from "@/components/mainpage/PricingList.vue";
+import PricingTable from "@/components/mainpage/PricingTable.vue";
+import TheFooter from "@/components/mainpage/TheFooter.vue";
 export default {
   name: "PricingContent",
   components: {
+    TheHeader,
     PricingCategory,
     PricingList,
+    PricingTable,
+    TheFooter,
   },
   data() {
     return {

@@ -84,7 +84,11 @@
                 px-4
               "
               href="#"
+<<<<<<< HEAD
               >Resources</a
+=======
+              ><ResourceMenu  />Resources</a
+>>>>>>> 2b0edc402dd595447e250738fdd99fcd6544a544
             >
           </li>
           <li class="mr-3">
@@ -98,7 +102,11 @@
                 px-4
               "
               href="#"
+<<<<<<< HEAD
               ><router-link to="/">Blog </router-link></a
+=======
+              ><router-link to="/pricingcontent">Pricing </router-link></a
+>>>>>>> 2b0edc402dd595447e250738fdd99fcd6544a544
             >
           </li>
           <li class="mr-3">
@@ -132,7 +140,7 @@
                   md:mx-6
                 "
                 href="#"
-                ><router-link to="/register"> Start Free Trial </router-link></a
+                ><router-link to="/login"> Start Free Trial </router-link></a
               >
             </li>
           </template>
@@ -181,10 +189,7 @@ export default {
     },
   },
   methods: {
-    // async logOut() {
-    //   await database.logOut();
-    //   this.$router.push("/");
-    // },
+   
     onClick() {
       this.isOpen = false;
     },
