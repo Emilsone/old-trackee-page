@@ -36,7 +36,7 @@
           >
             <p class="text-md font-bold py-3 uppercase paragraph">Create ~ Plan ~ Execute</p>
             <h1 class="my-4 text-5xl font-bold leading-tight">
-              Manage your team for the better result
+              Manage your task for the better result
             </h1>
 
             <nav
@@ -75,7 +75,7 @@
                   >
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg> </span
-                >Meeting and sharing ideas
+                >Planning and sharing goals
               </a>
               <a>
                 <span
@@ -102,7 +102,7 @@
                   >
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg> </span
-                >Create team task
+                >Split goals into task
               </a>
               <a>
                 <span

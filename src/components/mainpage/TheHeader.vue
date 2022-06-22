@@ -84,7 +84,11 @@
                 px-4
               "
               href="#"
+<<<<<<< HEAD
+              >Resources</a
+=======
               ><ResourceMenu  />Resources</a
+>>>>>>> 2b0edc402dd595447e250738fdd99fcd6544a544
             >
           </li>
           <li class="mr-3">
@@ -98,7 +102,11 @@
                 px-4
               "
               href="#"
+<<<<<<< HEAD
+              ><router-link to="/">Blog </router-link></a
+=======
               ><router-link to="/pricingcontent">Pricing </router-link></a
+>>>>>>> 2b0edc402dd595447e250738fdd99fcd6544a544
             >
           </li>
           <li class="mr-3">
@@ -147,14 +155,11 @@
 <script>
 import Logo from "@/components/mainpage/Logo";
 // import FeatureMenu from "@/components/mainpage/FeatureMenu";
-import ResourceMenu from "@/components/mainpage/ResourceMenu";
-// import database from "../services/database";
 
 export default {
   name: "NavBar",
   components: {
     logo: Logo,
-  ResourceMenu,
   },
   data() {
     return {

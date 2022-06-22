@@ -13,7 +13,7 @@
           lg:text-center
         "
       >
-        What Our Clients Says
+        What Our Users Says
       </h1>
       <p
         class="
@@ -27,8 +27,8 @@
           mb-12
         "
       >
-        Trackee gives the ability to track the hours of my team and see where
-        we're profitable, right down to the task level
+        Trackee gives the ability to track the hours of my task and see where
+        i'm profitable, right down to the task level
       </p>
     </div>
     <div class="w-full py-16 my-24">
@@ -240,7 +240,7 @@
                   </div>
                   <div class="xl:pl-6 lg:pl-6 md:pl-6 sm:pl-6 sm:pt-0 pt-4">
                     <p class="text-xl text-black font-bold">Shade Bello</p>
-                    <p class="sm:text-xl text-sm text-black">CEO, ABC Inc.</p>
+                    <p class="sm:text-xl text-sm text-black">Software Engineer @Apple</p>
                   </div>
                 </div>
                 <svg width="85" height="65" xmlns="http://www.w3.org/2000/svg">
@@ -258,9 +258,9 @@
                 </svg>
               </div>
               <p class="text-base text-xl text-black pb-6 w-full sm:w-10/12">
-                It really saves my team time and effort. Trackee is exactly what
-                our Company has been lacking. Trackee was worth a fortune to my
-                company. I must recommend trackee as one of the best team
+                It really saves my  time and effort. Trackee is exactly what
+                i was lacking as a Software Enginerr at Apple. Trackee was worth a fortune to my
+                growth. I must recommend trackee as one of the best
                 management tools
               </p>
               <img
@@ -284,7 +284,7 @@
                   </div>
                   <div class="xl:pl-6 lg:pl-6 md:pl-6 sm:pl-6 sm:pt-0 pt-4">
                     <p class="text-xl text-black font-bold">Winter Doe</p>
-                    <p class="sm:text-xl text-sm text-black">CTO, XYZ Corp.</p>
+                    <p class="sm:text-xl text-sm text-black">Senior Product Designer @Amazon.</p>
                   </div>
                 </div>
                 <svg width="85" height="65" xmlns="http://www.w3.org/2000/svg">
@@ -302,8 +302,8 @@
                 </svg>
               </div>
               <p class="text-base text-xl text-black pb-6 w-full sm:w-10/12">
-                Trackee has organized the work in my team neatly and made it
-                easier for us to work quickly and on time. My team loves trackee
+                Trackee has organized my work neatly and made it
+                easier for me  to work quickly and on time. I love trackee
                 so much 😊😊😊
               </p>
 
@@ -329,7 +329,7 @@
                   <div class="xl:pl-6 lg:pl-6 md:pl-6 sm:pl-6 sm:pt-0 pt-4">
                     <p class="text-xl text-black font-bold">Edidiong David</p>
                     <p class="sm:text-xl text-sm text-black">
-                      Product Manager @Avocodes
+                      Backend Developer @Avocodes
                     </p>
                   </div>
                 </div>
@@ -349,8 +349,7 @@
               </div>
               <p class="text-base text-xl text-black pb-6 w-full sm:w-10/12">
                 Trackee has helped me manage my team work much better. The
-                intuitive interface makes implementaion very easy and my team
-                really love using trackee so much.
+                intuitive interface makes implementaion very easy.
               </p>
 
               <img
