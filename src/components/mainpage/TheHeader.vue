@@ -33,7 +33,7 @@
               stroke-width="2"
               d="M4 6h16M4 12h16m-7 6h7"
             />
-          <title>Menu</title>
+            <title>Menu</title>
           </svg>
         </span>
       </div>
@@ -43,10 +43,7 @@
         class="
           w-full
           flex-grow
-          lg:flex
-          lg:items-center
-          lg:w-auto
-          lg:block
+          lg:flex lg:items-center lg:w-auto lg:block
           mt-2
           lg:mt-0
           bg-white
@@ -58,7 +55,7 @@
         "
       >
         <ul class="list-reset lg:flex justify-end flex-1 items-center">
-           <li class="mr-3">
+          <li class="mr-3">
             <a
               class="
                 inline-block
@@ -72,9 +69,9 @@
               ><router-link to="/waitlistpage">Features </router-link></a
             >
           </li>
-           
+
           <li class="mr-3">
-           <a
+            <a
               class="
                 inline-block
                 text-black
@@ -84,11 +81,7 @@
                 px-4
               "
               href="#"
-<<<<<<< HEAD
               >Resources</a
-=======
-              ><ResourceMenu  />Resources</a
->>>>>>> 2b0edc402dd595447e250738fdd99fcd6544a544
             >
           </li>
           <li class="mr-3">
@@ -102,11 +95,7 @@
                 px-4
               "
               href="#"
-<<<<<<< HEAD
               ><router-link to="/">Blog </router-link></a
-=======
-              ><router-link to="/pricingcontent">Pricing </router-link></a
->>>>>>> 2b0edc402dd595447e250738fdd99fcd6544a544
             >
           </li>
           <li class="mr-3">
@@ -123,7 +112,6 @@
               ><router-link to="/">Faq</router-link></a
             >
           </li>
-         
 
           <template>
             <li class="mr-3">
@@ -144,7 +132,6 @@
               >
             </li>
           </template>
-         
         </ul>
       </div>
     </div>
@@ -189,7 +176,6 @@ export default {
     },
   },
   methods: {
-   
     onClick() {
       this.isOpen = false;
     },

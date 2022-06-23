@@ -35,7 +35,6 @@
             Trackee is a task management tool that allows you to easily measure
             the progress and time spent on your task and keep them on track in a
             fun and flexible way
-          </p>
           <div
             class="
               flex
