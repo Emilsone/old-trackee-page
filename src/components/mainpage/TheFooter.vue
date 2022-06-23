@@ -43,7 +43,7 @@
               <a href="#" class="no-underline">Task List </a>
             </li>
             <li class="mt-2 mr-2 md:block md:mr-0 py-2">
-              <a href="#" class="no-underline">Progress Tracking</a>
+              <a href="#" class="no-underline">Progress Tracker</a>
             </li>
             <li class="mt-2 mr-2 md:block md:mr-0 py-2">
               <a href="#" class="no-underline">Activity Report</a>
