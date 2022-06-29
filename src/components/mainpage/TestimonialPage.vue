@@ -349,7 +349,7 @@
               </div>
               <p class="text-base text-xl text-black pb-6 w-full sm:w-10/12">
                 Trackee has helped me manage my team work much better. The
-                intuitive interface makes implementaion very easy.
+                intuitive interface makes implementation very easy.
               </p>
 
               <img

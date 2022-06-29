@@ -16,7 +16,7 @@
           :class="{ active: tabActiveIndex == 0 }"
           @click="changeTab(0)"
         >
-          Monthly
+          Active Projects
         </button>
         <button
           class="
@@ -32,7 +32,7 @@
           :class="{ active: tabActiveIndex == 1 }"
           @click="changeTab(1)"
         >
-          Yearly
+          Task Completed
         </button>
       </div>
     </div>

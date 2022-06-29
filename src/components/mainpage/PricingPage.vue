@@ -42,8 +42,6 @@
               "
             >
              
-              
-             
               <router-link to="/register">
                 <a
                   to="/register"
@@ -97,8 +95,8 @@
                     focus:outline-none
                   "
                 >
-                  <i class="fa fa-shopping-cart px-1" aria-hidden="true"></i>
-                  Purchase Now
+                 
+                  Get started
                 </a>
               </router-link>
             </div>
@@ -134,8 +132,8 @@
                     focus:outline-none
                   "
                 >
-                  <i class="fa fa-shopping-cart px-1" aria-hidden="true"></i>
-                  Purchase Now
+                  
+                  Get started
                 </a>
               </router-link>
             </div>
