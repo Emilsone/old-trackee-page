@@ -13,10 +13,10 @@
           "
         >
           <!--Right Col-->
-          <div class="w-full md:w-3/5 my-16 md:py-6 text-center">
+          <div class="w-full md:w-3/5 my-14 md:py-6 text-center">
             <img
-              class="w-full md:w-4/5 z-50 md:ml-24 ml-0"
-              src="@/assets/mockup-2.png"
+              class="w-full md:w-4/5 z-50 md:ml-12 ml-0"
+              src="@/assets/trackee-mockup.png"
               alt
             />
           </div>
@@ -132,27 +132,7 @@
                 >Report progress and challenges
               </a>
             </nav>
-            <div
-              class="flex w-full md:justify-start justify-center items-end mt-6"
-            >
-              <button
-                class="
-                  inline-flex
-                  text-white
-                  btn-start
-                  border-0
-                  py-3
-                  px-8
-                  xs:px-8
-                  focus:outline-none
-                  
-                  text-md
-                  xs:text-lg
-                "
-              >
-                Get Started
-              </button>
-            </div>
+            
           </div>
         </div>
       </div>

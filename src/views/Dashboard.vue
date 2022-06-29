@@ -1,6 +1,6 @@
 <template>
   <div class="flex h-screen">
-    <SideBar />
+    <!-- <SideBar /> -->
 
     <div class="flex-1 flex flex-col overflow-hidden">
       <!-- <NavLink /> -->
@@ -16,11 +16,11 @@
 
 <script>
 // import NavLink from "@/components/NavLink.vue";
-import SideBar from "@/components/sidebar/SideBar.vue";
+// import SideBar from "@/components/sidebar/SideBar.vue";
 // import overview from "@/components/overview.vue";
 export default {
   name: "Dashboard",
-  components: { SideBar,  },
+  // components: { SideBar,  },
 };
 </script>
 

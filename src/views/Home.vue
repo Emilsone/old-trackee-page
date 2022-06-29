@@ -5,7 +5,6 @@
     <Report />
     <FeaturePage />
     <SchedulePage />
-    <PricingPage />
     <TestimonialPage />
     <TheFooter />
   </main>
@@ -16,7 +15,6 @@ import Hero from "@/components/mainpage/Hero.vue";
 import Report from "@/components/mainpage/Report.vue";
 import FeaturePage from "@/components/mainpage/FeaturePage.vue";
 import SchedulePage from "@/components/mainpage/SchedulePage.vue";
-import PricingPage from "@/components/mainpage/PricingPage.vue";
 import TestimonialPage from "@/components/mainpage/TestimonialPage.vue";
 import TheFooter from "@/components/mainpage/TheFooter.vue";
 export default {
@@ -26,7 +24,6 @@ export default {
     Report,
     FeaturePage,
     SchedulePage,
-    PricingPage,
     TestimonialPage,
     TheFooter,
   },
