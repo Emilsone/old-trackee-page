@@ -8,7 +8,7 @@
               our plans
             </p>
             <h2 class="text-3xl font-bold text-gray-800 dark:text-gray-100">
-              Get Our Reasonable Pricing
+              Features
             </h2>
           </div>
 

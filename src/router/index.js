@@ -5,8 +5,6 @@ import Dashboard from "../views/Dashboard.vue";
 import Home from "../views/Home.vue";
 import Register from "../views/Register";
 import Login from "../views/Login";
-import WaitlistPage from "../views/WaitlistPage";
-// import overview from "../views/overview.vue";
 
 
 Vue.use(VueRouter);
@@ -35,12 +33,7 @@ const routes = [{
     component: Login,
     meta: { guest: true },
 },
-{
-    path: "/waitlistpage",
-    name: "WaitlistPage",
-    component: WaitlistPage,
-    // meta: { guest: true },
-},
+
     // {
     //     path: "/overview",
     //     name: "overview",
