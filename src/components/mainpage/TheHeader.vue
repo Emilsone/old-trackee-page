@@ -123,7 +123,7 @@
                 px-4
               "
               href="#"
-              ><router-link to="/">Contact Us</router-link></a
+              ><router-link to="/contact-us">Contact Us</router-link></a
             >
           </li>
 
