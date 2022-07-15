@@ -129,6 +129,7 @@
             </g>
           </svg>
         </div>
+        
         <div class="absolute -mb-16 bottom-0 right-0">
           <svg width="151" height="104" xmlns="http://www.w3.org/2000/svg">
             <g fill="#0c0e2d" fill-rule="evenodd">

@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 // import store from "@/store";
 import Dashboard from "../views/Dashboard.vue";
 import Home from "../views/Home.vue";
+import ContactPage from "../views/ContactPage";
 import Register from "../views/Register";
 import Login from "../views/Login";
 
@@ -18,6 +19,13 @@ const routes = [{
     path: "/register",
     name: "Register",
     component: Register,
+    meta: { guest: true },
+},
+
+{
+    path: "/contact-us",
+    name: "ContactPage",
+    component: ContactPage,
     meta: { guest: true },
 },
 
