@@ -4,6 +4,7 @@ import VueRouter from "vue-router";
 import Dashboard from "../views/Dashboard.vue";
 import Home from "../views/Home.vue";
 import ContactPage from "../views/ContactPage";
+import Blog from "../views/Blog";
 import Register from "../views/Register";
 import Login from "../views/Login";
 
@@ -19,6 +20,13 @@ const routes = [{
     path: "/register",
     name: "Register",
     component: Register,
+    meta: { guest: true },
+},
+
+{
+    path: "/blog",
+    name: "Blog",
+    component: Blog,
     meta: { guest: true },
 },
 
