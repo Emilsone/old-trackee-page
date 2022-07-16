@@ -1,4 +1,4 @@
-# Trackee--website
+# Trackee--Website
 
 ## Project setup
 ```
