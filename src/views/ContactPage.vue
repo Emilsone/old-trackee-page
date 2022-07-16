@@ -1,5 +1,8 @@
 <template>
-  <div class="flex min-h-screen items-center justify-start bg-white">
+ <main>
+  <TheHeader />
+  <section>
+     <div class="flex min-h-screen items-center justify-start bg-white mt-24">
     <div class="mx-auto w-full max-w-lg">
       <h1 class="text-4xl font-bold">Contact us</h1>
       <p class="mt-3">Email us at hello@trackee.com or message us here:</p>
@@ -88,9 +91,18 @@
       </form>
     </div>
   </div>
+  </section>
+  <TheFooter />
+ </main>
 </template>
 <script>
+import TheHeader from "@/components/mainpage/TheHeader.vue";
+import TheFooter from "@/components/mainpage/TheFooter.vue";
 export default {
-  name: "Contactpage",
+  name:"ContactPage",
+  components: {
+    TheHeader,
+    TheFooter,
+  },
 };
 </script>

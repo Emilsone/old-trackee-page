@@ -2,8 +2,8 @@
   <section class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-wrap -m-4">
-        <div class="xl:w-1/3 md:w-1/2 p-4">
-          <div class="border border-gray-200 p-6">
+        <div class="xl:w-1/3 md:w-1/2 p-4" id="feature-card">
+          <div class="border border-gray-600 p-6">
             <div
               class="
                 w-16
@@ -23,12 +23,13 @@
               Manage Tasks
             </h2>
             <p class="leading-relaxed text-base">
-              With Trackee you can easily manage your task, and control productivity
+              With Trackee you can easily manage your task, report your task
+              progress and control productivity
             </p>
           </div>
         </div>
-        <div class="xl:w-1/3 md:w-1/2 p-4">
-          <div class="border border-gray-200 p-6">
+        <div class="xl:w-1/3 md:w-1/2 p-4" id="feature-card">
+          <div class="border border-gray-600 p-6">
             <div
               class="
                 w-16
@@ -48,12 +49,13 @@
               Increase Productivity
             </h2>
             <p class="leading-relaxed text-base">
-              Trackee helps you to track your progress and measure the time spent in your task.
+              Trackee helps you to track your progress and measure the time
+              spent in your task or company task.
             </p>
           </div>
         </div>
-        <div class="xl:w-1/3 md:w-1/2 p-4">
-          <div class="border border-gray-200 p-6">
+        <div class="xl:w-1/3 md:w-1/2 p-4" id="feature-card">
+          <div class="border border-gray-600 p-6">
             <div
               class="
                 w-16
@@ -73,7 +75,8 @@
               Share Knowledge
             </h2>
             <p class="leading-relaxed text-base">
-             You can share some articles or guides on how you manage task with Trackee
+              You can share some articles or guides on how you manage the task
+              you work on using trackee
             </p>
           </div>
         </div>
@@ -86,3 +89,10 @@ export default {
   name: "PricingList",
 };
 </script>
+<style>
+/* #feature-card:hover{
+    background: #0c0e2d;
+    color: white;
+    width: 20rem;
+} */
+</style>

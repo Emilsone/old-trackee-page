@@ -5,7 +5,7 @@
         <div class="sm:flex sm:items-center sm:justify-between">
           <div class="py-6">
             <p class="mt-4 text-gray-500 dark:text-gray-400 uppercase">
-              our plans
+              Trackee Features
             </p>
             <h2 class="text-3xl font-bold text-gray-800 dark:text-gray-100">
               Features
@@ -18,7 +18,7 @@
           <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-wrap -m-4">
               <div class="xl:w-1/3 md:w-1/2 p-4">
-                <div class="border border-gray-200 p-6">
+                <div class="border border-gray-600 p-6">
                   <div
                     class="
                       w-16
@@ -45,7 +45,7 @@
                 </div>
               </div>
               <div class="xl:w-1/3 md:w-1/2 p-4">
-                <div class="border border-gray-200 p-6">
+                <div class="border border-gray-600 p-6">
                   <div
                     class="
                       w-16
@@ -73,7 +73,7 @@
                 </div>
               </div>
               <div class="xl:w-1/3 md:w-1/2 p-4">
-                <div class="border border-gray-200 p-6">
+                <div class="border border-gray-600 p-6">
                   <div
                     class="
                       w-16
