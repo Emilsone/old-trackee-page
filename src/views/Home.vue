@@ -7,6 +7,7 @@
     <SchedulePage />
     <PricingPage />
     <TestimonialPage />
+    <SuscribePage />
     <TheFooter />
   </main>
 </template>
@@ -18,6 +19,7 @@ import FeaturePage from "@/components/mainpage/FeaturePage.vue";
 import SchedulePage from "@/components/mainpage/SchedulePage.vue";
 import PricingPage from "@/components/mainpage/PricingPage.vue";
 import TestimonialPage from "@/components/mainpage/TestimonialPage.vue";
+import SuscribePage from "@/components/mainpage/SuscribePage.vue";
 import TheFooter from "@/components/mainpage/TheFooter.vue";
 export default {
   components: {
@@ -28,6 +30,7 @@ export default {
     SchedulePage,
     PricingPage,
     TestimonialPage,
+    SuscribePage,
     TheFooter,
   },
 };
