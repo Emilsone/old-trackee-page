@@ -1,6 +1,6 @@
 <template>
   <section class="body-font">
-    <div class="container px-5 py-24 mx-auto">
+    <div class="container px-5 py-12 mx-auto">
       <div class="text-center">
         <h1
           class="sm:text-3xl text-2xl font-bold title-font text-gray-900 mb-4"
@@ -78,7 +78,11 @@
       </div>
     </div>
 
-    <div class="md:py-4 py-12">
+    <div>
+      <Arrow />
+    </div>
+
+    <div class="md:py-4 py-4">
       <div
         class="
           container
@@ -211,8 +215,12 @@
   </section>
 </template>
 <script>
+import Arrow from "@/components/mainpage/Arrow.vue";
 export default {
   name: "Feature",
+  components:{
+    Arrow
+  }
 };
 </script>
 <style scoped>
