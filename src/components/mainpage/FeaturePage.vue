@@ -78,9 +78,9 @@
       </div>
     </div>
 
-    <div>
+    <!-- <div>
       <Arrow />
-    </div>
+    </div> -->
 
     <div class="md:py-4 py-4">
       <div
@@ -215,11 +215,11 @@
   </section>
 </template>
 <script>
-import Arrow from "@/components/mainpage/Arrow.vue";
+// import Arrow from "@/components/mainpage/Arrow.vue";
 export default {
   name: "Feature",
   components:{
-    Arrow
+    // Arrow
   }
 };
 </script>
