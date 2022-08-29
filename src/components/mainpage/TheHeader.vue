@@ -109,7 +109,7 @@
                 px-4
               "
               href="#"
-              ><router-link to="/">Help</router-link></a
+              ><router-link to="/help">Help</router-link></a
             >
           </li>
           <li class="mr-3">

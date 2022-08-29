@@ -5,6 +5,7 @@ import Dashboard from "../views/Dashboard.vue";
 import Home from "../views/Home.vue";
 import ContactPage from "../views/ContactPage";
 import Blog from "../views/Blog";
+import HelpPage from "../views/HelpPage";
 import Register from "../views/Register";
 import Login from "../views/Login";
 
@@ -47,6 +48,12 @@ const routes = [{
     path: "/login",
     name: "Login",
     component: Login,
+    meta: { guest: true },
+},
+{
+    path: "/help",
+    name: "HelpPage",
+    component: HelpPage,
     meta: { guest: true },
 },
 
