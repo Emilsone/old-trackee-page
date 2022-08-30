@@ -33,7 +33,6 @@
                 class="
                   w-full
                   input
-                  bg-opacity-50
                   rounded
                   focus:ring-2 focus:ring-gray-200 focus:bg-transparent
                   border border-gray-300
@@ -57,10 +56,13 @@
 
     <section>
       <div
-        class="flex items-center -m-3 flex-wrap justify-center my-24 text-black"
+        @tabchange="changeTab($event)"
+        class="flex items-center flex-wrap justify-center my-12 text-black"
       >
         <div className="md:w-72 rounded-3xl md:p-1 text-center flex flex-wrap ">
           <button
+            :class="{ active: tabActiveIndex == 0 }"
+            @click="changeTab(0)"
             type="button"
             class="
               inline-flex
@@ -103,6 +105,8 @@
           </button>
 
           <button
+            :class="{ active: tabActiveIndex == 1 }"
+            @click="changeTab(1)"
             type="button"
             class="
               inline-flex
@@ -144,6 +148,8 @@
             <div class="text-xl pt-0.5">Asked Questions</div>
           </button>
           <button
+            :class="{ active: tabActiveIndex == 2 }"
+            @click="changeTab(2)"
             type="button"
             class="
               inline-flex
@@ -185,6 +191,8 @@
             <div class="text-xl pt-0.5">Articles</div>
           </button>
           <button
+            :class="{ active: tabActiveIndex == 3 }"
+            @click="changeTab(3)"
             type="button"
             class="
               inline-flex
@@ -229,117 +237,152 @@
       </div>
     </section>
 
-    <section class="text-gray-600 body-font overflow-hidden mt-24">
-      <div class="container px-5 py-24 mx-auto">
-        <div class="-my-8 divide-y-2 divide-gray-100">
-          <div class="py-8 px-8 mt-5 flex flex-wrap md:flex-nowrap bg-btn">
-            <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-              <span class="font-bold title-font text-black text-xl"
-                >CATEGORY</span
-              >
-              <span class="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
+    <main>
+      <div v-show="tabActiveIndex == 0">
+        <div class="container px-5 py-6 mx-auto">
+          <h1
+            class="title-font sm:text-4xl text-3xl mb-4 font-bold text-center"
+          >
+            Getting Started with Trackee
+          </h1>
+          <p class="mb-8 leading-relaxed text-center lg:w-1/2 mx-auto">
+            Welcome to Trackee! This manual will provide you with all of the
+            information you need to get started, from setup to project creation
+            and management. You don't need any prior project management
+            knowledge because this tutorial will cover all of the essentials.
+          </p>
+
+          <!--======== First card section ========== -->
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-600 p-6">
+                <h2 class="text-lg text-gray-900 font-bold title-font mb-2">
+                  Learn Trackee basics
+                </h2>
+                <p class="leading-relaxed text-base">
+                  Trackee is a free tool you don't need any subscription or
+                  credit card detials to get you started.
+                </p>
+              </div>
             </div>
-            <div class="md:flex-grow">
-              <h2 class="text-2xl font-bold text-gray-900 title-font mb-2">
-                5 Reasons why you are not productive at home
-              </h2>
-              <p class="leading-relaxed">
-                There are so many reason why your productivity can drop as a
-                remote developer, in this article you will see those 5 reasons.
-              </p>
-              <a class="text-white inline-flex items-center mt-4 bg-month p-3"
-                >Read More
-                <svg
-                  class="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path d="M5 12h14"></path>
-                  <path d="M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-600 p-6">
+                <h2 class="text-lg text-gray-900 font-bold title-font mb-2">
+                  Create your Project
+                </h2>
+                <p class="leading-relaxed text-base">
+                  One of the ways to boost productivity, is to work with the
+                  right tools. You can work with your favorite tool using
+                  trackee
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="py-8 px-8 mt-5 flex flex-wrap md:flex-nowrap bg-btn">
-            <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-              <span class="font-bold title-font text-black text-xl"
-                >CATEGORY</span
-              >
-              <span class="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
-            </div>
-            <div class="md:flex-grow">
-              <h2 class="text-2xl font-bold text-gray-900 title-font mb-2">
-                Is Trackee the best tool for task management?
-              </h2>
-              <p class="leading-relaxed">
-                One of the ways to be 100% productive is to use the right tool.
-                Find out why Trackee is the best tool for task management
-              </p>
-              <a class="text-white inline-flex items-center mt-4 bg-month p-3"
-                >Read More
-                <svg
-                  class="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path d="M5 12h14"></path>
-                  <path d="M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-600 p-6">
+                <h2 class="text-lg text-gray-900 font-bold title-font mb-2">
+                  Manage Project and Task
+                </h2>
+                <p class="leading-relaxed text-base">
+                  Team work brings value to a project, you can collaborate with
+                  your other team members using trackee
+                </p>
+              </div>
             </div>
           </div>
-          <div class="py-8 px-8 mt-5 flex flex-wrap md:flex-nowrap bg-btn">
-            <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-              <span class="font-bold title-font text-black text-xl"
-                >CATEGORY</span
-              >
-              <span class="text-sm text-gray-500">12 Jun 2019</span>
+
+          <!--====== second card section ======== -->
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-600 p-6">
+                <h2 class="text-lg text-gray-900 font-bold title-font mb-2">
+                  Track progress
+                </h2>
+                <p class="leading-relaxed text-base">
+                  Trackee is a free tool you don't need any subscription or
+                  credit card detials to get you started.
+                </p>
+              </div>
             </div>
-            <div class="md:flex-grow">
-              <h2 class="text-2xl font-bold text-gray-900 title-font mb-2">
-                Increase your Productivity with Trackee
-              </h2>
-              <p class="leading-relaxed">
-                How to increase your productivity with Trackee
-              </p>
-              <a class="text-white inline-flex items-center mt-4 bg-month p-3"
-                >Read More
-                <svg
-                  class="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path d="M5 12h14"></path>
-                  <path d="M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-600 p-6">
+                <h2 class="text-lg text-gray-900 font-bold title-font mb-2">
+                  Report Progress
+                </h2>
+                <p class="leading-relaxed text-base">
+                  One of the ways to boost productivity, is to work with the
+                  right tools. You can work with your favorite tool using
+                  trackee
+                </p>
+              </div>
             </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-600 p-6">
+                <h2 class="text-lg text-gray-900 font-bold title-font mb-2">
+                  Invite Friends to the board
+                </h2>
+                <p class="leading-relaxed text-base">
+                  Team work brings value to a project, you can collaborate with
+                  your other team members using trackee
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <button
+              class="
+                flex
+                mx-auto
+                text-black
+                mt-16
+                bg-btn
+                py-2
+                px-12
+                rounded-full
+                text-lg
+              "
+            >
+              Get Started
+            </button>
           </div>
         </div>
       </div>
-    </section>
+      <div v-show="tabActiveIndex == 1">
+        <AskQuestion />
+      </div>
+      <div v-show="tabActiveIndex == 2">
+        <ArticleSection />
+      </div>
+      <div v-show="tabActiveIndex == 3">
+        <SupportSection />
+      </div>
+    </main>
     <TheFooter />
   </main>
 </template>
 <script>
 import TheHeader from "@/components/mainpage/TheHeader.vue";
 import TheFooter from "@/components/mainpage/TheFooter.vue";
+import AskQuestion from "../components/mainpage/AskQuestion.vue";
+import ArticleSection from "../components/mainpage/ArticleSection.vue";
+import SupportSection from "../components/mainpage/SupportSection.vue";
 export default {
   components: {
     TheHeader,
     TheFooter,
+    AskQuestion,
+    ArticleSection,
+    SupportSection,
+  },
+  data() {
+    return {
+      tabActiveIndex: 0,
+    };
+  },
+  methods: {
+    changeTab(val) {
+      this.tabActiveIndex = val;
+      this.$emit("tabchange", this.tabActiveIndex);
+    },
   },
 };
 </script>
