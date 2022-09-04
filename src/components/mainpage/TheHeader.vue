@@ -66,7 +66,7 @@
                 px-4
               "
               href="#"
-              ><router-link to="/waitlistpage">Features </router-link></a
+              ><router-link to="#">Features </router-link></a
             >
           </li>
 
@@ -155,12 +155,15 @@
 
 <script>
 import Logo from "@/components/mainpage/Logo";
-// import FeatureMenu from "@/components/mainpage/FeatureMenu";
+import FeatureMenu from "@/components/mega-menu/FeatureMenu";
+import ResourceMenu from "@/components/mega-menu/ResourceMenu";
 
 export default {
   name: "NavBar",
   components: {
     logo: Logo,
+    FeatureMenu,
+    ResourceMenu,
   },
   data() {
     return {

@@ -2,7 +2,7 @@
   <a
     :class="classList"
     class="no-underline hover:no-underline font-bold text-2xl lg:text-4xl px-6 py-2 task-text"
-    href="#"
+    href="/"
     >Trackee
   </a>
 </template>
