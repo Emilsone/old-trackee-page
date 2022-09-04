@@ -155,15 +155,15 @@
 
 <script>
 import Logo from "@/components/mainpage/Logo";
-import FeatureMenu from "@/components/mega-menu/FeatureMenu";
-import ResourceMenu from "@/components/mega-menu/ResourceMenu";
+// import FeatureMenu from "@/components/mega-menu/FeatureMenu";
+// import ResourceMenu from "@/components/mega-menu/ResourceMenu";
 
 export default {
   name: "NavBar",
   components: {
     logo: Logo,
-    FeatureMenu,
-    ResourceMenu,
+    // FeatureMenu,
+    // ResourceMenu,
   },
   data() {
     return {
