@@ -17,9 +17,9 @@
             text-gray-800
           "
         >
-            We also offer team building activities that are designed to enhance your teams communication and also build freindships.
+          We also offer team building activities that are designed to enhance
+          your teams communication and also build freindships.
         </p>
-
       </div>
       <div
         class="px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center"
@@ -122,7 +122,7 @@
           <h1 class="my-4 text-4xl font-bold leading-tight">Track Progress</h1>
           <p class="leading-relaxed">
             It shows you at what stage you are at and what work is needed to
-            complete a given assignment. Its a motivational aid that helps get
+            complete a given assignment. It's a motivational aid that helps get
             things done.
           </p>
           <p class="py-4">
@@ -179,8 +179,8 @@
             Learning from history
           </h1>
           <p class="leading-relaxed">
-            When you need to evaluate a new project you can simply tasks and
-            accurately estimate how much effort and it will involve
+            When you need to evaluate a new project, you can simplify the task
+            and accurately estimate how much effort it will involve
           </p>
 
           <p class="py-4">
@@ -218,9 +218,9 @@
 // import Arrow from "@/components/mainpage/Arrow.vue";
 export default {
   name: "Feature",
-  components:{
+  components: {
     // Arrow
-  }
+  },
 };
 </script>
 <style scoped>
@@ -229,8 +229,8 @@ export default {
 }
 .bg-explore {
   /* background-color: #f2f5fa; */
-   background-color: #0c0e2d;
-    color: #FFFFFF;
+  background-color: #0c0e2d;
+  color: #ffffff;
 }
 .bg-num {
   background-color: #0c0e2d;
