@@ -8,6 +8,7 @@ import Blog from "../views/Blog";
 import HelpPage from "../views/HelpPage";
 import Register from "../views/Register";
 import Login from "../views/Login";
+import ForgotPassword from "../views/ForgotPassword"
 
 
 Vue.use(VueRouter);
@@ -48,6 +49,12 @@ const routes = [{
     path: "/login",
     name: "Login",
     component: Login,
+    meta: { guest: true },
+},
+{
+    path: "/forgotpassword",
+    name: "ForgotPassword",
+    component: ForgotPassword,
     meta: { guest: true },
 },
 {
