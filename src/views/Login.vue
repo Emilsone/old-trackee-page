@@ -109,7 +109,7 @@
                     dark:focus:ring-offset-gray-800
                   "
                 >
-                  Login
+                 Login 
                 </button>
                 <p
                   class="
@@ -120,7 +120,8 @@
                   "
                 >
                   Forgot your password?
-                  <a
+                  <router to="/forgotpassword" >
+                    <a
                     class="
                       text-blue-600
                       decoration-2
@@ -131,6 +132,8 @@
                   >
                     Click here
                   </a>
+                  </router>
+                 
                 </p>
               </div>
             </form>
