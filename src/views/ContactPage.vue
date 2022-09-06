@@ -157,11 +157,42 @@
 <script>
 import TheHeader from "@/components/mainpage/TheHeader.vue";
 import TheFooter from "@/components/mainpage/TheFooter.vue";
+import emailjs from "emailjs-com";
 export default {
   name: "ContactPage",
   components: {
     TheHeader,
     TheFooter,
+  },
+  data() {
+    return {
+      email: "",
+      name: "",
+      Message: "",
+    };
+  },
+  methods: {
+    sendEmail(e) {
+      try {
+        emailjs.sendForm(
+          "YOUR_SERVICE_ID",
+          "YOUR_TEMPLATE_ID",
+          e.target,
+          "YOUR_USER_ID",
+          {
+            email: this.email,
+            name: this.name,
+            message: this.Message,
+          }
+        );
+      } catch (error) {
+        console.log({ error });
+      }
+      // Reset form field
+      this.email = "";
+      this.name = "";
+      this.Message = "";
+    },
   },
 };
 </script>

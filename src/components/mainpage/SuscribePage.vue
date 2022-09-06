@@ -36,33 +36,35 @@
             </p>
           </div>
           <div class="relative flex-grow w-full">
-            <label for="email" class="leading-7 text-sm text-white"
-              >Email</label
-            >
-            <input
-              type="email"
-              id="email"
-              name="email"
-              class="
-                w-full
-                bg-white bg-opacity-50
-                rounded
-                border border-white
-                focus:border-white
-                focus:bg-transparent
-                focus:ring-2
-                focus:ring-indigo-200
-                text-base
-                outline-none
-                text-white
-                py-2
-                px-3
-                leading-8
-                transition-colors
-                duration-200
-                ease-in-out
-              "
-            />
+            <form @submit.prevent="sendEmail">
+              <label for="email" class="leading-7 text-sm text-white"
+                >Email</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="
+                  w-full
+                  bg-white bg-opacity-50
+                  rounded
+                  border border-white
+                  focus:border-white
+                  focus:bg-transparent
+                  focus:ring-2
+                  focus:ring-indigo-200
+                  text-base
+                  outline-none
+                  text-white
+                  py-2
+                  px-3
+                  leading-8
+                  transition-colors
+                  duration-200
+                  ease-in-out
+                "
+              />
+            </form>
           </div>
           <button
             class="
@@ -87,8 +89,34 @@
 </template>
 
 <script>
+import emailjs from "emailjs-com";
+
 export default {
   name: "SubscribePage",
+  data() {
+    return {
+      email: "",
+    };
+  },
+  methods: {
+    sendEmail(e) {
+      try {
+        emailjs.sendForm(
+          "YOUR_SERVICE_ID",
+          "YOUR_TEMPLATE_ID",
+          e.target,
+          "YOUR_USER_ID",
+          {
+            email: this.email,
+          }
+        );
+      } catch (error) {
+        console.log({ error });
+      }
+      // Reset form field
+      this.email = "";
+    },
+  },
 };
 </script>
 <style>
