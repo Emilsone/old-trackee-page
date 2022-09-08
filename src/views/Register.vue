@@ -98,7 +98,7 @@
                     rounded-md
                     border border-transparent
                     font-semibold
-                    bg-btn
+                    btn
                     text-white
                     focus:outline-none
                     focus:ring-2
@@ -218,7 +218,7 @@ export default {
 };
 </script>
 <style>
-.bg-btn {
+.btn {
   background-color: #0c0e2d;
 }
 </style>
