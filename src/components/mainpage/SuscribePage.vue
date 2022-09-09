@@ -32,7 +32,7 @@
             <h3 class="text-4xl font-bold text-white">Subscribe</h3>
             <p class="mt-2 text-white">
               Join our weekly digest. You'll also receive some of our best posts
-              today.
+              weekly.
             </p>
           </div>
           <div class="relative flex-grow w-full">

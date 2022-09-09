@@ -1,15 +1,15 @@
 <template>
   <main>
     <TheHeader />
-    <section class="text-gray-600 body-font overflow-hidden mt-24">
-      <div class="container px-5 py-24 mx-auto">
+    <section class="text-gray-600 body-font mt-24">
+      <div class="container px-5 py-4 mx-auto">
         <div class="-my-8 divide-y-2 divide-gray-100">
-          <div class="py-8 flex flex-wrap md:flex-nowrap">
+          <div class="py-8 px-8 mt-5 flex flex-wrap md:flex-nowrap bg-btn">
             <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-              <span class="font-semibold title-font text-gray-700"
+              <span class="font-bold title-font text-black text-xl"
                 >CATEGORY</span
               >
-              <span class="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
+              <span class="text-sm text-gray-500">12 Jun 2019</span>
             </div>
             <div class="md:flex-grow">
               <h2 class="text-2xl font-bold text-gray-900 title-font mb-2">
@@ -36,12 +36,13 @@
               </a>
             </div>
           </div>
-          <div class="py-8 flex flex-wrap md:flex-nowrap">
+
+          <div class="py-8 px-8 mt-5 flex flex-wrap md:flex-nowrap bg-btn">
             <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-              <span class="font-semibold title-font text-gray-700"
+              <span class="font-bold title-font text-black text-xl"
                 >CATEGORY</span
               >
-              <span class="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
+              <span class="text-sm text-gray-500">12 Jun 2019</span>
             </div>
             <div class="md:flex-grow">
               <h2 class="text-2xl font-bold text-gray-900 title-font mb-2">
@@ -68,9 +69,10 @@
               </a>
             </div>
           </div>
-          <div class="py-8 flex flex-wrap md:flex-nowrap">
+
+          <div class="py-8 px-8 mt-5 flex flex-wrap md:flex-nowrap bg-btn">
             <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-              <span class="font-semibold title-font text-gray-700"
+              <span class="font-bold title-font text-black text-xl"
                 >CATEGORY</span
               >
               <span class="text-sm text-gray-500">12 Jun 2019</span>
@@ -80,7 +82,8 @@
                 Increase your Productivity with Trackee
               </h2>
               <p class="leading-relaxed">
-                How to increase your productivity with Trackee
+                This article covers how you can increase your productivity and
+                track your progress while using trackee task management system
               </p>
               <a class="text-white inline-flex items-center mt-4 bg-month p-3"
                 >Read More
