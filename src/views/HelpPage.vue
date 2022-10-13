@@ -240,9 +240,11 @@
     <main>
       <div v-show="tabActiveIndex == 0">
         <div class="container px-5 py-6 mx-auto">
+          
           <h1
             class="title-font sm:text-4xl text-3xl mb-4 font-bold text-center"
           >
+          
             Getting Started with Trackee
           </h1>
           <p class="mb-8 leading-relaxed text-center lg:w-1/2 mx-auto">
@@ -256,6 +258,21 @@
           <div class="flex flex-wrap -m-4">
             <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="border border-gray-600 p-6">
+                <div
+                class="
+                  w-16
+                  h-16
+                  inline-flex
+                  items-center
+                  justify-center
+                  rounded-full
+                  bg-gray-100
+                  text-black
+                  mb-4
+                "
+              >
+                <i class="fa fa-leanpub text-2xl" aria-hidden="true"></i>
+              </div>
                 <h2 class="text-lg text-gray-900 font-bold title-font mb-2">
                   Learn Trackee basics
                 </h2>
@@ -267,6 +284,21 @@
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="border border-gray-600 p-6">
+                <div
+                class="
+                  w-16
+                  h-16
+                  inline-flex
+                  items-center
+                  justify-center
+                  rounded-full
+                  bg-gray-100
+                  text-black
+                  mb-4
+                "
+              >
+                <i class="fa fa-plus text-2xl" aria-hidden="true"></i>
+              </div>
                 <h2 class="text-lg text-gray-900 font-bold title-font mb-2">
                   Create your Project
                 </h2>
@@ -279,6 +311,21 @@
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="border border-gray-600 p-6">
+                <div
+                class="
+                  w-16
+                  h-16
+                  inline-flex
+                  items-center
+                  justify-center
+                  rounded-full
+                  bg-gray-100
+                  text-black
+                  mb-4
+                "
+              >
+                <i class="fa fa-tasks text-2xl" aria-hidden="true"></i>
+              </div>
                 <h2 class="text-lg text-gray-900 font-bold title-font mb-2">
                   Manage Project and Task
                 </h2>
@@ -294,6 +341,21 @@
           <div class="flex flex-wrap -m-4">
             <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="border border-gray-600 p-6">
+                <div
+                class="
+                  w-16
+                  h-16
+                  inline-flex
+                  items-center
+                  justify-center
+                  rounded-full
+                  bg-gray-100
+                  text-black
+                  mb-4
+                "
+              >
+                <i class="fa fa-step-forward text-2xl" aria-hidden="true"></i>
+              </div>
                 <h2 class="text-lg text-gray-900 font-bold title-font mb-2">
                   Track progress
                 </h2>
@@ -305,6 +367,21 @@
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="border border-gray-600 p-6">
+                <div
+                class="
+                  w-16
+                  h-16
+                  inline-flex
+                  items-center
+                  justify-center
+                  rounded-full
+                  bg-gray-100
+                  text-black
+                  mb-4
+                "
+              >
+                <i class="fa fa-bug text-2xl" aria-hidden="true"></i>
+              </div>
                 <h2 class="text-lg text-gray-900 font-bold title-font mb-2">
                   Report Progress
                 </h2>
@@ -317,6 +394,21 @@
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="border border-gray-600 p-6">
+                <div
+                class="
+                  w-16
+                  h-16
+                  inline-flex
+                  items-center
+                  justify-center
+                  rounded-full
+                  bg-gray-100
+                  text-black
+                  mb-4
+                "
+              >
+                <i class="fa fa-share-alt text-2xl" aria-hidden="true"></i>
+              </div>
                 <h2 class="text-lg text-gray-900 font-bold title-font mb-2">
                   Invite Friends to the board
                 </h2>
